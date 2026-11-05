@@ -1,0 +1,15 @@
+{
+  "id": "samurott",
+  "nameKo": "대검귀",
+  "kind": "player",
+  "edit": true,
+  "date": "2026-10-07",
+  "promptFile": "prompts/gaze-02/samurott.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/assets/rewards/modular-v1/players/samurott.png"
+  ],
+  "generationSucceeded": true,
+  "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-cf3a679d-ac09-4712-b37b-4775c8d3bf13.png",
+  "file": "players/samurott-boss-gaze-v2.png",
+  "status": "generated"
+}

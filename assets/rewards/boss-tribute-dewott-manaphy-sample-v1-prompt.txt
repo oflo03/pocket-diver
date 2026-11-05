@@ -1,0 +1,23 @@
+Generation mode: built-in image_gen
+Status: flattened composition preview; not separated layers.
+
+Use case: illustration-story.
+Create ONE polished 16:9 landscape pixel-art reward cutscene example for the Pokémon fan game "Team Rocket Marine Division". This is one complete scene, NOT a contact sheet, not a diagram.
+
+SCENE: The director's office inside a floating marine base ABOVE the ocean surface. A broad rear window shows a sunny sea horizon and a little harbor infrastructure above water. Navy steel wall panels, restrained red Team Rocket R insignia, warm brass details, blue marine daylight. Clearly a marine headquarters office, not an underwater base. Composition is close and character-focused, with minimal wasted space. Consistent crisp, deliberate pixel clusters, strong readable silhouettes, a polished detailed 16-bit/32-bit game illustration aesthetic. All subjects rendered in the same pixel-art medium.
+
+STORY: The Pokémon employee Dewott has returned after capturing the region-one bosses, exactly ONE Manaphy and THREE Phione. Dewott proudly presents them to Giovanni, who is acknowledging the successful mission and promotion. The player IS Dewott; no human trainer.
+
+COMPOSITION FOR FUTURE MODULAR ASSET COMPOSITING:
+Left 5–36% of the canvas: large full-body Dewott in the immediate foreground, about 65% of image height, face visible in three-quarter view facing slightly right toward Giovanni. Keep the full crest, feet and tail in frame. Dewott is the primary visual subject, confidently standing with a simple relaxed presenting gesture confined to its own area.
+Middle 41–67%: exactly one Manaphy and exactly three Phione together on a low receiving platform, captured in a loosely gathered navy capture net. Their FOUR separate faces and recognizable bodies are clearly visible, with net cords mostly around the lower bodies, no cords across faces. Manaphy centered slightly higher and larger; three smaller Phione clearly spaced around it. No fifth creature.
+Right 72–97%: recognizable Giovanni, adult male Team Rocket leader with slicked-back short black hair, angular canonical face and dark formal suit with a small red R, seated in a high-backed executive chair behind a compact desk, clearly visible face and upper body, about half the height of the image. Restrained satisfied smile, attention directed toward Dewott and the captured group. A small open promotion-medal case on the desk conveys a reward, without written labels or numeric amounts.
+
+CHARACTER ACCURACY:
+Dewott: light cyan round head with two uneven upright pointed crest tips, charcoal ears, pink oval nose, white sharp angular cheek whiskers, blue torso and navy ragged skirt-like lower coat, two pale cream segmented scallop shells attached to the hips, charcoal flat paws with subtly angular short digits and webbed feet, one broad flat dark paddle tail. Follow original Pokémon anatomy and proportions. NO drawn swords, NO round human fists, NO gloves, NO clothing covering the original body.
+Manaphy: small blue mythical sea Pokémon, two long curved head antennae ending in round tips, large eyes with yellow orbital markings, red chest jewel, small flipper arms.
+Each Phione: small blue sea Pokémon with one curling head antenna ending in a round tip, rounded head, white facial markings, small red chest jewel and flipper arms. Three individuals, distinct from Manaphy.
+
+MODULAR CONSTRAINT: Keep a narrow visible gap between the player silhouette, the boss-group silhouette, and Giovanni/desk. No touching, no rope connecting player to net, no interlocking limbs or props across these three areas. Keep lighting simple and compatible with later replacement of the player among 27 starter forms and replacement of the boss group. The illustration itself must still feel like a cohesive scene, not three panels.
+
+No dialog box, captions, title, UI frame, numbers, watermarks, labels, or extra characters. Only small canonical R insignia may be visible. No Persian, no additional Pokémon, no bubbles, no injury. Opaque finished background. Generate only the one requested sample image.

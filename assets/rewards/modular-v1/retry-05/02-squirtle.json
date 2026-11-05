@@ -1,0 +1,10 @@
+{
+  "id": "squirtle",
+  "nameKo": "꼬부기",
+  "kind": "player",
+  "promptFile": "prompts/retry-05/squirtle.txt",
+  "inputs": null,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID eb039619-6dc7-49fe-9af2-e82a4866b817.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "eb039619-6dc7-49fe-9af2-e82a4866b817"
+}

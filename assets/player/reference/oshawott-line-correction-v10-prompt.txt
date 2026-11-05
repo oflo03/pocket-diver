@@ -1,0 +1,14 @@
+Tool: built-in image_gen
+Result: review only; Dewott trailing shell remains around wrist, rounded hands persist, Samurott far forearm reverted forward.
+
+Make a careful localized correction to image1, the three-character Oshawott/Dewott/Unovan Samurott sheet. Preserve its composition, character sizes, faces, body proportions, rightward horizontal swimming and limb poses. Samurott's two arms already reach backward and its two blades already hang down: keep those directions. Keep Samurott's mouth CLOSED and Oshawott's white arm stretched back holding its shell.
+
+Reference2 shows original Dewott flat paws and segmented scalchops. Reference3 shows the user's intended Samurott compact animal paws. Reference4 shows the narrow hilt, natural grip and flat blade. Reference5 shows the earlier crisp pixel texture only.
+
+Fix DEWOTT'S TWO HAND/SHELL CONNECTIONS:
+The trailing shell is currently wrapped around the wrist with a round fist beyond it. Rebuild that small assembly. Reading from the torso toward screen-left, the order must be BLUE FOREARM → SMALL FLAT DARK PAW → YELLOW SCALCHOP projecting farther left. The shell must lie beyond the paw, not between paw and forearm. On the other arm the same sequence extends screen-right. Each paw supports the narrow shell base, partly behind the shell, like Oshawott holds its shell. Shape paws as short flat tapered charcoal otter paws with three small pointed tips as reference2. Remove round knuckles. Both held shells use reference2's central segmented structure and side lobes, with their longitudinal direction following the corresponding forearm. Exactly two held shells, empty hips.
+
+Fix SAMUROTT'S TWO PAW/HILT CONNECTIONS:
+Keep forearm and blade positions but redraw the round segmented fists as compact flat dark animal paws, guided by reference3. The blue forearm tapers into the paw. Show short angular toes curling around a slender tan handle as reference4; no row of round finger bulges. The paw grips only the HANDLE. Expose a short section of that narrow handle between the paw and the broad blade root, and keep the handle and blade on one straight centerline. Keep the wrist angle between backward arm and downward sword. Both grips match, ordinary normal grips. Keep exactly two flat tapered shell blades, two forelegs and two hindlegs, with foreleg armor distinct from blade. Do not add large crossguards.
+
+Restore consistent crisp PIXEL ART to the whole sheet using reference5's pixel texture: discrete square clusters, stepped contours, limited cel-shaded color bands, no smooth vector outlines or soft painted gradients. Preserve silhouettes while converting the finish. Transparent background, clean edges without colored fringe, enough margin for all tips. No bubbles, text, guide lines or new props.

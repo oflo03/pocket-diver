@@ -1,0 +1,14 @@
+node_modules/
+dist/
+models/
+.env.local
+.env.*.local
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# work archives and support/audit records (not part of the game)
+assets/rewards/*.zip
+support-*
+IMAGE_GENERATION_*
+image-generation-audit-traces.json

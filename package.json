@@ -1,0 +1,22 @@
+{
+  "name": "pocket-diver",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "vite": "^8.3.1"
+  },
+  "dependencies": {
+    "firebase": "12.19.0",
+    "three": "0.180.0"
+  },
+  "overrides": {
+    "@firebase/app": "0.16.2"
+  }
+}

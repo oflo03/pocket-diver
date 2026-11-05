@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지형 미리보기</title>
+<!-- Dev-only page (npm run dev, then /terrain-preview.html): draws the real map's rock, props and water at a few spots
+     with the player for scale, without starting a game or touching the save. Not part of the build. -->
+<style>
+  body { margin: 0; overflow: hidden; background: #02101c; color: #e8f6ff; font: 13px/1.4 system-ui, sans-serif; }
+  header { display: flex; flex-wrap: wrap; gap: 4px 12px; padding: 8px 12px; background: #04192a; }
+  header div { display: flex; gap: 3px; align-items: center; flex-wrap: wrap; }
+  button { font: inherit; color: inherit; background: #0d2a40; border: 1px solid #1d4660; border-radius: 4px; padding: 3px 8px; cursor: pointer; }
+  button.on { background: #2a6f9a; }
+  canvas { display: block; image-rendering: pixelated; }
+</style>
+</head>
+<body>
+<header><div id="spots"></div><div id="zooms"></div><div id="keys"></div><div id="olds"></div></header>
+<canvas id="c"></canvas>
+<script type="module">
+import * as M from '/src/map.js';
+import * as Terrain from '/src/terrain.js';
+import * as Decor from '/src/decor.js';
+import * as Anim from '/src/anim.js';
+import * as Sea from '/src/sea.js';
+
+// [label, tile x, tile y] of the view's top-left: per zone, the windows whose rock share is closest to 40%,
+// plus each zone boundary (to see the colour crossfade)
+const SPOTS = [];
+for (const z of M.ZONES) {
+  const cands = [];
+  for (let ty = z.y0 + 4; ty < z.y1 - 14; ty += 7) for (let tx = 2; tx < M.COLS - 24; tx += 9) {
+    let rock = 0;
+    for (let y = 0; y < 12; y++) for (let x = 0; x < 22; x++) rock += M.tileAt(tx + x, ty + y) === M.ROCK;
+    cands.push([Math.abs(rock / 264 - 0.4) + ((tx * 7 + ty * 3) % 10) * 0.004, tx, ty]);
+  }
+  cands.sort((a, b) => a[0] - b[0]);
+  const picked = [];
+  for (const c of cands) if (picked.length < 3 && picked.every(p => Math.abs(p[2] - c[2]) > 40)) picked.push(c);
+  picked.sort((a, b) => a[2] - b[2]).forEach((c, k) => SPOTS.push([`구역${z.id}-${k + 1}`, c[1], c[2]]));
+}
+M.ZONES.slice(0, -1).forEach(z => SPOTS.push([`경계 ${z.id}→${z.id + 1}`, 100, z.y1 - 6]));
+SPOTS.push(['기지 앞', 4, -3], ['보스방1 문', 112, 240], ['양식장', 2, 8]); // the tutorial fish farm (switches the map)
+const q = new URLSearchParams(location.search); // ?spot=3&zoom=4&old=1 opens a view directly
+const st = { spot: +(q.get('spot') ?? 0), zoom: +(q.get('zoom') ?? 5), key: q.get('key') ?? 'samurott', sx: 0, sy: 0, old: q.get('old') === '1' };
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const base = import.meta.env?.BASE_URL ?? '/';
+Terrain.load(base); Decor.load(base);
+const gateOpen = () => false;
+
+function btns(id, list, key) {
+  const el = document.getElementById(id);
+  el.innerHTML = '';
+  list.forEach(([label, v]) => {
+    const b = Object.assign(document.createElement('button'), { textContent: label, className: st[key] === v ? 'on' : '' });
+    b.onclick = () => { st[key] = v; if (key === 'spot') st.sx = st.sy = 0; ui(); };
+    el.append(b);
+  });
+}
+function ui() {
+  btns('spots', SPOTS.map(([l], i) => [l, i]), 'spot');
+  btns('zooms', [3, 4, 5, 6, 8].map(z => [z + '×', z]), 'zoom');
+  btns('keys', [['수댕이', 'oshawott'], ['쌍검자비', 'dewott'], ['대검귀', 'samurott']], 'key');
+  btns('olds', [['새 지형', false], ['예전 타일', true]], 'old');
+}
+// arrow keys pan by a tile
+addEventListener('keydown', e => {
+  const d = { ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] }[e.key];
+  if (d) { e.preventDefault(); st.sx += d[0] * 4; st.sy += d[1] * 4; }
+});
+
+function frame(now) {
+  const hh = document.querySelector('header').offsetHeight, Z = st.zoom, W = Math.floor((innerWidth - 20) / Z), H = Math.floor((innerHeight - hh - 4) / Z);
+  if (cv.width !== W * Z || cv.height !== H * Z) { cv.width = W * Z; cv.height = H * Z; }
+  const farm = SPOTS[st.spot][0] === '양식장';
+  if (M.scene !== (farm ? 'tutorial' : 'main')) M.setScene(farm ? 'tutorial' : 'main');
+  const [, tx, ty] = SPOTS[st.spot], ox = (tx + 11 + st.sx) * M.T - W / 2, oy = (ty + 6 + st.sy) * M.T - H / 2, t = now / 1000;
+  ctx.setTransform(Z, 0, 0, Z, 0, 0);
+  if (st.old) {
+    const g = ctx.createLinearGradient(0, -oy, 0, M.ROWS * M.T - oy);
+    g.addColorStop(0, '#1f8fc8'); g.addColorStop(0.1, '#0c4f86'); g.addColorStop(0.33, '#05203f'); g.addColorStop(1, '#010309');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  } else Sea.draw(ctx, ox, oy, W, H, t);
+  Decor.ambient(ctx, ox, oy, W, H, t, M.depthOf(oy + H / 2));
+  if (Terrain.ready()) (st.old ? Terrain.drawTiles : Terrain.draw)(ctx, ox, oy, W, H, Z, gateOpen);
+  Decor.draw(ctx, ox, oy, W, H, t);
+  const size = { oshawott: 15, dewott: 20, samurott: 33 }[st.key];
+  Anim.draw(ctx, st.key, base, 'float', t, W / 2, H / 2, size, false);
+  Decor.drawGlow(ctx, ox, oy, W, H, t);
+  requestAnimationFrame(frame);
+}
+ui();
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+{
+  "actual": {
+    "backgrounds": 1,
+    "players": 16,
+    "bosses": 1
+  },
+  "missing": [
+    {
+      "id": "squirtle",
+      "nameKo": "꼬부기",
+      "kind": "player"
+    },
+    {
+      "id": "wartortle",
+      "nameKo": "어니부기",
+      "kind": "player"
+    },
+    {
+      "id": "blastoise",
+      "nameKo": "거북왕",
+      "kind": "player"
+    },
+    {
+      "id": "feraligatr",
+      "nameKo": "장크로다일",
+      "kind": "player"
+    },
+    {
+      "id": "marshtomp",
+      "nameKo": "늪짱이",
+      "kind": "player"
+    },
+    {
+      "id": "piplup",
+      "nameKo": "팽도리",
+      "kind": "player"
+    },
+    {
+      "id": "empoleon",
+      "nameKo": "엠페르트",
+      "kind": "player"
+    },
+    {
+      "id": "greninja",
+      "nameKo": "개굴닌자",
+      "kind": "player"
+    },
+    {
+      "id": "popplio",
+      "nameKo": "누리공",
+      "kind": "player"
+    },
+    {
+      "id": "brionne",
+      "nameKo": "키요공",
+      "kind": "player"
+    },
+    {
+      "id": "sobble",
+      "nameKo": "울머기",
+      "kind": "player"
+    },
+    {
+      "id": "lugia",
+      "nameKo": "루기아",
+      "kind": "boss"
+    },
+    {
+      "id": "kyogre",
+      "nameKo": "가이오가",
+      "kind": "boss"
+    }
+  ],
+  "cumulativeImageCalls": 90,
+  "cumulativeImageFailures": 71,
+  "latestRounds": [
+    {
+      "round": "retry-01",
+      "attempted": 15,
+      "generated": [
+        "totodile"
+      ],
+      "failed": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "mudkip",
+        "marshtomp",
+        "piplup",
+        "empoleon",
+        "greninja",
+        "popplio",
+        "brionne",
+        "sobble",
+        "lugia",
+        "kyogre"
+      ]
+    },
+    {
+      "round": "retry-02",
+      "attempted": 8,
+      "generated": [
+        "mudkip"
+      ],
+      "failed": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "marshtomp",
+        "piplup",
+        "empoleon"
+      ]
+    },
+    {
+      "round": "retry-03",
+      "attempted": 13,
+      "generated": [],
+      "failed": [
+        "lugia",
+        "kyogre",
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "marshtomp",
+        "piplup",
+        "empoleon",
+        "greninja",
+        "popplio",
+        "brionne",
+        "sobble"
+      ]
+    }
+  ],
+  "archiveName": "boss-tribute-modular-v4-partial.zip",
+  "cumulativeImageSuccesses": 19,
+  "edits": [
+    {
+      "date": "2026-10-06",
+      "id": "manaphy-phione",
+      "change": "Make only Manaphy look sad and dejected; retain three Phione and net",
+      "previousFile": "bosses/manaphy-phione.png",
+      "previousSource": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-e38802ea-4423-4368-a771-274f9f398d8e.png",
+      "file": "bosses/manaphy-phione-sad-v1.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-5f616fa1-6611-426e-af31-a0e68d0fde6d.png",
+      "promptFile": "prompts/manaphy-phione-sad-v1.txt",
+      "status": "success"
+    }
+  ]
+}

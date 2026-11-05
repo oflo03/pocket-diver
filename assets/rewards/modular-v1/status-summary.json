@@ -1,0 +1,658 @@
+{
+  "actual": {
+    "backgrounds": 1,
+    "players": 25,
+    "bosses": 3
+  },
+  "missing": [
+    {
+      "id": "piplup",
+      "nameKo": "팽도리",
+      "kind": "player"
+    },
+    {
+      "id": "popplio",
+      "nameKo": "누리공",
+      "kind": "player"
+    }
+  ],
+  "cumulativeImageCalls": 223,
+  "cumulativeImageSuccesses": 38,
+  "cumulativeImageFailures": 182,
+  "cumulativeImageCallsWithUnknownOutcome": 3,
+  "latestRounds": [
+    {
+      "round": "retry-01",
+      "attempted": 15,
+      "generated": [
+        "totodile"
+      ],
+      "failed": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "mudkip",
+        "marshtomp",
+        "piplup",
+        "empoleon",
+        "greninja",
+        "popplio",
+        "brionne",
+        "sobble",
+        "lugia",
+        "kyogre"
+      ]
+    },
+    {
+      "round": "retry-02",
+      "attempted": 8,
+      "generated": [
+        "mudkip"
+      ],
+      "failed": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "marshtomp",
+        "piplup",
+        "empoleon"
+      ]
+    },
+    {
+      "round": "retry-03",
+      "attempted": 13,
+      "generated": [],
+      "failed": [
+        "lugia",
+        "kyogre",
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "marshtomp",
+        "piplup",
+        "empoleon",
+        "greninja",
+        "popplio",
+        "brionne",
+        "sobble"
+      ]
+    },
+    {
+      "round": "retry-04",
+      "attempted": 13,
+      "generated": [
+        "kyogre",
+        "wartortle",
+        "feraligatr",
+        "empoleon",
+        "brionne"
+      ],
+      "failed": [
+        "lugia",
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio",
+        "sobble"
+      ]
+    },
+    {
+      "round": "retry-05",
+      "attempted": 7,
+      "generated": [],
+      "failed": [
+        "lugia",
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio"
+      ]
+    },
+    {
+      "round": "retry-06",
+      "attempted": 9,
+      "generated": [
+        "kyogre"
+      ],
+      "failed": [
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio",
+        "sobble",
+        "lugia"
+      ],
+      "edited": [
+        "kyogre"
+      ]
+    },
+    {
+      "round": "retry-07",
+      "attempted": 8,
+      "generated": [
+        "lugia"
+      ],
+      "failed": [
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio",
+        "sobble"
+      ],
+      "edited": []
+    },
+    {
+      "round": "gaze-01",
+      "attempted": 4,
+      "generated": [
+        "quaxly",
+        "froakie"
+      ],
+      "failed": [
+        "samurott",
+        "primarina"
+      ],
+      "edited": [
+        "quaxly",
+        "froakie"
+      ]
+    },
+    {
+      "round": "gaze-02",
+      "attempted": 2,
+      "generated": [
+        "samurott",
+        "primarina"
+      ],
+      "failed": [],
+      "edited": [
+        "samurott",
+        "primarina"
+      ]
+    },
+    {
+      "round": "gaze-03",
+      "attempted": 2,
+      "generated": [
+        "quaxwell"
+      ],
+      "failed": [
+        "quaquaval"
+      ],
+      "edited": [
+        "quaxwell"
+      ]
+    },
+    {
+      "round": "gaze-04",
+      "attempted": 1,
+      "generated": [
+        "quaquaval"
+      ],
+      "failed": [],
+      "edited": [
+        "quaquaval"
+      ]
+    },
+    {
+      "round": "lugia-tired-v2",
+      "attempted": 5,
+      "generated": [
+        "lugia"
+      ],
+      "failed": [
+        "lugia",
+        "lugia",
+        "lugia",
+        "lugia"
+      ],
+      "edited": [],
+      "candidateOnly": true
+    },
+    {
+      "round": "retry-08",
+      "attempted": 7,
+      "generated": [
+        "sobble"
+      ],
+      "failed": [
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-09",
+      "attempted": 6,
+      "generated": [],
+      "failed": [
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-10",
+      "attempted": 6,
+      "generated": [
+        "squirtle"
+      ],
+      "failed": [
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-11",
+      "attempted": 5,
+      "generated": [],
+      "failed": [
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-12",
+      "attempted": 5,
+      "generated": [
+        "greninja"
+      ],
+      "failed": [
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-13",
+      "attempted": 4,
+      "generated": [
+        "marshtomp"
+      ],
+      "failed": [
+        "blastoise",
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-14",
+      "attempted": 3,
+      "generated": [],
+      "failed": [
+        "blastoise",
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-15",
+      "attempted": 3,
+      "generated": [],
+      "failed": [],
+      "unknown": [
+        "blastoise",
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "note": "The previous exec cell no longer exists; no per-character result logs or new output PNGs were found. These dispatched calls must not be counted as confirmed failures."
+    },
+    {
+      "round": "retry-16",
+      "attempted": 3,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio",
+        "blastoise"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-17",
+      "attempted": 3,
+      "generated": [
+        "blastoise"
+      ],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-18",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-19",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-20",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-21",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-22",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-23",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-24",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "promptChange": "Concise visual specification preserving species, pose, style, and transparency."
+    },
+    {
+      "round": "retry-25",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-26",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": []
+    },
+    {
+      "round": "retry-27",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Use saved evolution sprites only as style references."
+    },
+    {
+      "round": "retry-28",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Standalone generation with concise character and gaze specification."
+    },
+    {
+      "round": "retry-29",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Concise Korean descriptions, each a standalone transparent sprite."
+    },
+    {
+      "round": "retry-30",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Minimal species-name pixel-art prompts."
+    },
+    {
+      "round": "retry-31",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Exact repeat of retry-30 prompt and settings."
+    },
+    {
+      "round": "retry-32",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Right-facing side profile sprite prompts."
+    },
+    {
+      "round": "retry-33",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Short isolated pixel-art character prompts."
+    },
+    {
+      "round": "retry-34",
+      "attempted": 2,
+      "generated": [],
+      "failed": [
+        "piplup",
+        "popplio"
+      ],
+      "edited": [],
+      "approach": "Korean-only character and sprite specifications."
+    }
+  ],
+  "archiveName": "boss-tribute-modular-v18-partial.zip",
+  "edits": [
+    {
+      "date": "2026-10-06",
+      "id": "manaphy-phione",
+      "change": "Make only Manaphy look sad and dejected; retain three Phione and net",
+      "previousFile": "bosses/manaphy-phione.png",
+      "previousSource": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-e38802ea-4423-4368-a771-274f9f398d8e.png",
+      "file": "bosses/manaphy-phione-sad-v1.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-5f616fa1-6611-426e-af31-a0e68d0fde6d.png",
+      "promptFile": "prompts/manaphy-phione-sad-v1.txt",
+      "status": "success"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "kyogre",
+      "status": "blocked",
+      "change": "Redraw resting out of water on the plinth, fins hanging over front edge",
+      "attempts": 3,
+      "promptFile": "prompts/kyogre-resting-v2.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "kyogre",
+      "status": "success",
+      "change": "Lowered resting pose, belly on plinth with fins extending over the front; large display size",
+      "previousFile": "bosses/kyogre.png",
+      "file": "bosses/kyogre-resting-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-f7cbc377-3d2f-4691-872d-dd85fcd3d73c.png",
+      "promptFile": "prompts/retry-06/kyogre.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "quaxly",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/quaxly.png",
+      "file": "players/quaxly-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-b1b01217-20e0-4e82-8ac2-9cf61c58a41e.png",
+      "promptFile": "prompts/gaze-01/quaxly.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "froakie",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/froakie.png",
+      "file": "players/froakie-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-2ccda2bb-a837-48cf-afe7-50f2591032b4.png",
+      "promptFile": "prompts/gaze-01/froakie.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "samurott",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/samurott.png",
+      "file": "players/samurott-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-cf3a679d-ac09-4712-b37b-4775c8d3bf13.png",
+      "promptFile": "prompts/gaze-02/samurott.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "primarina",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/primarina.png",
+      "file": "players/primarina-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-64f874d2-0b8e-4300-8795-cfdcfcd44835.png",
+      "promptFile": "prompts/gaze-02/primarina.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "quaxwell",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/quaxwell.png",
+      "file": "players/quaxwell-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-f1fd9859-abd0-41f0-8d71-1762af9b3ee2.png",
+      "promptFile": "prompts/gaze-03/quaxwell.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "quaquaval",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/quaquaval.png",
+      "file": "players/quaquaval-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-6beb2f35-f923-41dc-9047-b87bfc5f00f3.png",
+      "promptFile": "prompts/gaze-04/quaquaval.txt"
+    },
+    {
+      "date": "2026-10-08",
+      "id": "lugia",
+      "status": "partial",
+      "change": "Lowered head and drooping wings generated; surrounding glow remains. Cleanup blocked three times. Candidate not integrated; larger scene placement pending.",
+      "previousFile": "bosses/lugia.png",
+      "candidateFile": "bosses/lugia-tired-v2.png",
+      "candidateSource": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-28b48a1e-4651-41af-ba7a-9387f2312767.png",
+      "promptFile": "prompts/lugia-tired-v2.txt",
+      "cleanupPromptFile": "prompts/lugia-tired-v2-cleanup.txt",
+      "attempts": 5,
+      "integrated": false
+    },
+    {
+      "date": "2026-10-08",
+      "id": "lugia",
+      "status": "accepted",
+      "change": "User accepted tired candidate with residual glow. Applied as larger resting boss on existing plinth without further image generation.",
+      "previousFile": "bosses/lugia.png",
+      "file": "bosses/lugia-tired-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-28b48a1e-4651-41af-ba7a-9387f2312767.png",
+      "promptFile": "prompts/lugia-tired-v2.txt",
+      "integrated": true,
+      "knownLimitation": "Residual surrounding glow; alpha maximum 254 preserved exactly as generated."
+    }
+  ],
+  "updatedAt": "2026-10-16",
+  "previewVerification": {
+    "date": "2026-10-12",
+    "status": "files_verified_visual_pending",
+    "reason": "Existing browser security block remains; no workaround attempted. PNGs and manifest validated; new composite not visually inspected."
+  }
+}

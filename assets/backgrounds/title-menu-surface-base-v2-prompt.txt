@@ -1,0 +1,26 @@
+Tool: built-in image_gen
+Date: 2026-10-05 (Asia/Seoul)
+Output: title-menu-surface-base-v2.png
+Reference: title-menu-ocean-v1.png
+Correction: Team Rocket operates from an above-water floating marine base. Underwater scenery is the exploration area, not the base location.
+
+Correct and recompose the attached pixel-art title/menu background for a game called Team Rocket Marine Division. Crucial worldbuilding correction: the team's base is a FLOATING OFFSHORE BASE ABOVE THE SEA SURFACE, with its buildings and working decks in open air. It is not an underwater habitat.
+
+Use the reference only for its rich blue/teal pixel-art palette, layered ocean depth, environmental craftsmanship and spacious menu-friendly center. Change the viewpoint to a beautiful SIDE-ON ABOVE/BELOW WATER CUTAWAY: sky and a surface base in the upper portion, and a vast explorable underwater canyon below. A single continuous readable sea surface crosses the frame at roughly 30% of the image height. Above that line is open sky; below it is water. The floating base's deck and ALL buildings sit visibly above that waterline; only its pontoon hulls, moorings and a short ladder extend into the water.
+
+COMPOSITION:
+Wide 16:9 landscape, opaque full-bleed background environment only. Preserve a large uncluttered low-contrast central area for a separate game title and menu: middle 55% of width, roughly 35–80% of height. Gentle depth color changes and very faint far cliffs there are welcome, but no buildings, high-contrast lines or focal objects across the central UI area. Keep visual storytelling concentrated at the left edge, upper-left, and bottom corners. All scenery must form one coherent ocean rather than two unrelated panels.
+
+SURFACE BASE, UPPER LEFT:
+A compact floating marine operations station mounted on broad steel pontoons, clearly buoyant at the sea surface. A small navy-and-gray control cabin with windows, antenna, modest deck crane, open railings, secured supply crates, coiled ropes, rolled empty fishing net and a launch platform/ladder for divers. A restrained crimson R on a cabin panel signals Team Rocket. Slightly weathered, resourceful and adventurous. Warm small window and deck-lamp accents, blue daylight. A small work boat is tied alongside and floats on the surface, not on the seabed. Show a believable waterline and small foam ripples around the pontoon hulls. No dome, underwater pressure hatch, underwater rooms, oil rig tower or oversized industrial city. Keep structures readable but peripheral.
+
+ABOVE WATER:
+Clean coastal-blue sky with a few restrained pixel clouds at the outer edges. Open ocean stretches to the right, a very faint distant island at the far-right horizon, a few tiny seabirds. Calm broad sea ripples. Do not place a giant ship or sun in the center. Enough sky around the station to make its above-water location unambiguous.
+
+UNDERWATER:
+Sun shafts enter from the visible surface near the sides. Blue depths, layered distant coral cliffs and a winding canyon. A few mooring ropes descend from the LEFT station to the side reef, avoiding the central menu space. Dark foreground rocks, teal kelp and small muted coral-orange sponges frame the bottom corners. A modest old wooden wreck partially hidden behind the lower-right reef hints at future exploration. Tiny distant fish shoals stay near the sides. No underwater buildings or submarine base; the water below the surface is the exploration area.
+
+STYLE:
+Handcrafted 16-bit/32-bit pixel-art game background with deliberate square pixel clusters, consistent pixel scale, crisp stepped silhouettes, limited blue/navy/teal palette, restrained dithering and clean shade bands. Match the reference's adventurous marine atmosphere while giving the scene a brighter open-air surface contrast. No painterly rendering, photorealism, 3D, fuzzy edges, indiscriminate pixel noise or lens effects.
+
+One complete finished background. No title lettering, English/Korean words, menu buttons, UI, HUD, border, watermark or transparency. The small in-world crimson R on the surface cabin is the only lettering.

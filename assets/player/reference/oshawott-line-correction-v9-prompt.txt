@@ -1,0 +1,20 @@
+Tool: built-in image_gen
+References:
+C:/Users/oFlo/Documents/WebProject/pocket-diver/assets/player/reference/oshawott-line-correction-v8.png
+C:/Users/oFlo/Documents/WebProject/pocket-diver/art-references/dewott-original-art.png
+C:/Users/oFlo/AppData/Local/Temp/codex-clipboard-ed9df811-eaa9-4f7c-b0e3-9b997e93ac6a.png
+C:/Users/oFlo/Documents/WebProject/pocket-diver/art-references/samurott-razor-shell-anime.png
+
+Edit the attached pixel-art sheet (image 1) using the following specific correction list. Preserve the complete three-character composition and scale, horizontal rightward underwater swimming, crisp pixel-art style and transparent background. Image 2 supplies canonical Dewott hand and shell anatomy. Image 3 supplies Samurott's compact animal paw anatomy. Image 4 supplies its narrow handle and flat shell blade. Supporting references guide anatomy only.
+
+1. OSHAWOTT, left: retain its current white right arm extended backward toward the tail and its single pale-yellow shell resting against that trailing paw. Keep both paws white, belly empty, original face and proportions.
+
+2. DEWOTT, center: completely replace the two hand/shell assemblies. The current shells incorrectly wrap around wrists and one assembly has dark shapes at both ends. Each arm must terminate in ONE small FLAT charcoal three-point paw, connected to the blue forearm. The paw supports the narrow BASE of one original scalchop. The shell is a separate flat object lying against the palm and extending beyond fingertips, not armor surrounding the wrist. Its longitudinal axis continues the corresponding forearm direction. The trailing arm's shell extends leftward; the leading arm's shell extends rightward. Exactly TWO paws and TWO held scalchops. Both hips are bare of shells. Use image2's segmented shell shape, with a central section and side lobes. Replace round knuckled hands with flat tapered animal paws. Keep the original rounded head, zigzag whiskers, small ears and clean two-point asymmetric head tuft, tallest tuft point toward the back.
+
+3. SAMUROTT, right: rebuild BOTH front-leg poses. It faces screen-right. Both front legs reach BACK toward screen-left, along the ribcage. Both paw centers must lie behind (left of) their shoulder attachments. In particular move the far forepaw now below the neck/front chest to a position beside the other paw beneath the middle ribcage. Show the near anatomical right arm in front of the torso; the far left arm behind the torso, partly visible along its lower edge. Offset the two paws slightly horizontally for clarity. Preserve exactly two hindlegs and the tail.
+
+4. SAMUROTT GRIPS: replace both current round segmented fists with small flattened dark otter paws, as image3. Draw only a compact angular paw outline and short tapered toes wrapping around the narrow handle as image4. The handle visibly passes through the grasp. One paw holds one sword, ordinary normal grip, no icepick/reverse grip. Each hand contacts only the handle; keep the wide blade outside the hand.
+
+5. SAMUROTT SWORDS: exactly TWO flat triangular shell blades hanging DOWN from those two backward-positioned paws. Both tips point vertically toward the bottom of the image and have matching orientation. The forearms point back while swords point down, joined at natural wrist angles. Only the HANDLE and BLADE are collinear: one uninterrupted straight axis through handle, blade root and tip. Match image4's long flat tapered blade and small blade shoulder, with a short narrow tan hilt, no oversized crossguard or conical drill. Distinguish the held swords from armor on the forelegs.
+
+6. FINISH: preserve Samurott's CLOSED mouth, nose, eyes, helmet and whiskers. Clean stray red/yellow/blue fringe pixels around silhouettes. No bubbles, water, annotation marks, text, extra paws, duplicated swords or clipped edges. Leave transparent breathing room below blades and around horn. Verify both Samurott arms point backward and both swords downward, and that Dewott holds two separate shells rather than wearing them at its wrists.

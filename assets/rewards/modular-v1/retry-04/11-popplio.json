@@ -1,0 +1,12 @@
+{
+  "id": "popplio",
+  "nameKo": "누리공",
+  "kind": "player",
+  "promptFile": "prompts/retry-04/popplio.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/popplio.png"
+  ],
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 70d2443c-4453-4817-b389-8ae664dbbf7b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "70d2443c-4453-4817-b389-8ae664dbbf7b"
+}

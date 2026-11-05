@@ -1,0 +1,15 @@
+{
+  "id": "samurott",
+  "nameKo": "대검귀",
+  "kind": "player",
+  "edit": true,
+  "date": "2026-10-07",
+  "promptFile": "prompts/gaze-01/samurott.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/assets/rewards/modular-v1/players/samurott.png"
+  ],
+  "generationSucceeded": false,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 4710fc75-4ac8-4e50-b410-da2050b7a532.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "4710fc75-4ac8-4e50-b410-da2050b7a532"
+}

@@ -1,0 +1,10 @@
+# primarina: rendered from its Scarlet/Violet model (models/primarina, scripts/dae2blend.py) by scripts/render3d.py with the shared
+# starter motions (scripts/starter3d.py), then scripts/pixel3d.py. Line concept: 노래하는 디바: 노래하듯 소리를 낸다.
+#   blender -b models/primarina/primarina.blend -P scripts/render3d.py -- primarina [anim ...]
+#   python scripts/pixel3d.py primarina
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from starter3d import spec
+
+CONFIG = {'sp': 'primarina', 'height': 2.0, 'sprite_h': 71, 'arm': ('{s}_arm_01', '{s}_arm_02'), 'leg': (), 'foot': None, 'spine': ['waist', 'spine_01', 'spine_02'], 'neck': ['neck'], 'head': 'head', 'tail': ['tail_01', 'tail_02', 'tail_03', 'tail_04', 'tail_05'], 'jaw': 'lower_jaw', 'hide': [], 'lean0': -1, 'shoot': 'sing', 'plan': 'mermaid', 'springs': {'hair_[ah]_\\d+|(left|right)_hair_e_\\d+': (2.4, 0.5, 18, 0.35), 'skirt_[a-g]': (3.0, 0.35), '(left|right)_tail_\\d+': (2.5, 0.3)}, 'gather': [('center_hair_a_01', 'hair_a_03'), ('center_hair_a_02', 'hair_a_03'), ('center_hair_a_03', 'hair_a_05'), ('center_hair_a_04', 'hair_a_06'), ('left_hair_a_01', 'hair_a_03'), ('left_hair_a_02', 'hair_a_04'), ('left_hair_a_03', 'hair_a_06'), ('left_hair_a_04', 'hair_a_07'), ('left_hair_b_01', 'hair_a_03'), ('left_hair_b_02', 'hair_a_06'), ('left_hair_b_03', 'hair_a_08'), ('left_hair_b_04', 'hair_h_01'), ('left_hair_c_01', 'hair_a_03'), ('left_hair_c_02', 'hair_a_05'), ('left_hair_c_03', 'hair_a_07'), ('left_hair_c_04', 'hair_a_10'), ('right_hair_a_01', 'hair_a_03'), ('right_hair_a_02', 'hair_a_04'), ('right_hair_a_03', 'hair_a_06'), ('right_hair_a_04', 'hair_a_08'), ('right_hair_b_01', 'hair_a_03'), ('right_hair_b_02', 'hair_a_06'), ('right_hair_b_03', 'hair_a_08'), ('right_hair_b_04', 'hair_h_01'), ('right_hair_c_01', 'hair_a_03'), ('right_hair_c_02', 'hair_a_05'), ('right_hair_c_03', 'hair_a_07'), ('right_hair_c_04', 'hair_a_10'), ('left_hair_d_01', 'hair_a_03'), ('left_hair_d_02', 'hair_a_04'), ('right_hair_d_01', 'hair_a_03'), ('right_hair_d_02', 'hair_a_04')], 'eyes': [(48, 18, 53, 21)]}
+globals().update(spec(CONFIG))

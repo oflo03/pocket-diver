@@ -1,0 +1,12 @@
+{
+  "id": "brionne",
+  "nameKo": "키요공",
+  "kind": "player",
+  "promptFile": "prompts/retry-03/brionne.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/brionne.png"
+  ],
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d99b364c-8f5e-4cc7-913b-d2cdad844d6c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "d99b364c-8f5e-4cc7-913b-d2cdad844d6c"
+}

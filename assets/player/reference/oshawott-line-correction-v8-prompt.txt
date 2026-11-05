@@ -1,0 +1,16 @@
+Tool: built-in image_gen
+Status: generated draft; unresolved hand and forearm pose inaccuracies.
+
+Edit image 1, the user's latest red-annotated correction sheet. The red annotations are pose and connection corrections, not finished art. Interpret them alongside the instructions below and remove every red annotation in the result.
+Reference roles: image1 controls composition, existing pixel-art style and requested corrections. Image2 is canonical Oshawott paw/scalchop anatomy. Image3 is canonical Dewott paw, head and shell anatomy. Image4 shows the user's preferred Samurott animal forepaw anatomy. Image5 shows the actual Samurott hilt/blade geometry. These supporting images do not supply backgrounds or full-body poses.
+
+Keep all THREE characters, full bodies, swimming horizontally toward screen-right, separated on a transparent background, with clean crisp pixel art and consistent shading. Provide margins around helmet, tails and blade tips.
+
+OSHAWOTT: Implement the trailing-arm correction. Move its visible anatomical right white arm from the front of its chest to extend backward toward the tail on screen-left. The white paw at that trailing arm's end supports the one pale yellow segmented scalchop at its narrow base. Remove the current shell hanging below its chest; belly is empty. Keep its original face and white tapered paw shape, with no dark hand.
+
+DEWOTT: Implement the red hand/shell corrections using small flat charcoal three-point otter paws. BOTH hip shells are drawn and physically held, exactly one by each paw, with clear forearm-to-paw-to-shell connections. Move the shell that still reads as sitting on the rear hip fully into the trailing paw. Empty both hip attachment sites. On each side, the shell's long axis follows its own forearm, broad segmented shell extending beyond the small paw, not forming a bracelet around the wrist. Follow reference3's original shell shape and clean asymmetric head tuft. Preserve its face, whiskers and body proportions.
+
+SAMUROTT: CLOSE ITS MOUTH. Replace the visible pink mouth and tongue with a closed blue muzzle and a short natural dark mouth line. Retain the orange nose, eyes, white whiskers and beard.
+Correct both forepaws and sword connections in the marked areas. Both front arms reach backward alongside the torso; both blades hang downward with the same orientation, as clarified by the user. Wrist angle is allowed: arms and swords need not be collinear. ONLY the narrow hilt and its blade are on one straight axis. Each small flattened dark animal paw curls around the narrow hilt in a natural normal grip, using references4 and5. Replace the current row of big round knuckles with a compact angular animal paw silhouette. Keep a short visible hilt between paw and blade; no hand grasping blade or blade cutting through paw. Flat tapered shell blades, not drills; no invented wide sword guards. Exactly two swords and four limbs. Anatomical right foreleg in front of torso, left behind torso; both remain readable. Preserve separate foreleg armor, body, helmet, hindlegs and tail.
+
+Clean all stray red/blue edge halos. No bubbles, water, labels or drawn guide lines. Maintain the user's intended body proportions and quality.

@@ -1,0 +1,9 @@
+{
+  "id": "popplio",
+  "requestId": "cd0950c0-2d8b-4e1a-a1ad-2373629cc13f",
+  "date": "2026-10-14",
+  "status": "failed",
+  "generationSucceeded": false,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID cd0950c0-2d8b-4e1a-a1ad-2373629cc13f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "promptFile": "prompts/retry-26/popplio.txt"
+}

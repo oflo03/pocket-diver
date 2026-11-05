@@ -1,0 +1,31 @@
+Tool: built-in image_gen
+Date: 2026-10-05 (Asia/Seoul)
+Shared visual reference: team-rocket-marine-division-logo-v1.png
+Outputs: team-rocket-marine-division-logo-ko-v1.png; team-rocket-marine-division-logo-en-v1.png
+
+Korean-only prompt:
+Create the KOREAN-ONLY edition of the supplied pixel-art logo through a faithful localized edit. The user loves this existing design. Preserve its visual identity: large crimson R integrated with a navy anchor and curling teal waves at the left; chunky dimensional 16-bit lettering, warm ivory edging, navy outline/backplate, red branding and ivory-to-aqua marine lettering.
+
+The ONLY title wording must be exactly:
+로켓단 해양 수산부
+
+Keep the existing large Korean glyph designs and their palette: 로켓단 in crimson red; 해양 수산부 in warm ivory and aqua. Add modest visible word spacing. Preserve the emblem's R: it is a symbol, not an English subtitle.
+
+REMOVE the entire small English subtitle and its boxed text ribbon beneath the title. Do not leave an empty text box. Rebalance the Korean-only title and emblem into a compact, finished horizontal logo with the title optically vertically centered beside the emblem. A thin wave-shaped pixel underline may elegantly finish the title baseline, but it must contain no lettering. Keep the emblem, character of the original Hangul, colors and overall proportions very close to the reference. This should look like the same logo in a Korean-only edition, not a redesign.
+
+One logo only, complete and uncropped, with transparent padding around its outline. Genuine transparent background. Clean intentional square pixel clusters, stepped edges, consistent outlines and pixel highlights; no soft blur, color fringing or rough stray pixels. No English wording, no subtitle, no additional slogan, no labels or mockup.
+
+English-only prompt:
+Create the ENGLISH-ONLY edition of the supplied pixel-art game logo. This is a faithful language variant of the same approved visual identity, not a new logo design.
+
+Preserve the LEFT EMBLEM very closely: a prominent crimson capital R with pixel highlights over a dark navy nautical anchor, ivory pixel edging and curled cyan/teal waves at its base. Preserve the same chunky dimensional 16-bit title lettering style, strong navy outline/backplate, stepped contours, restrained pixel highlights, warm ivory and aqua marine palette.
+
+REMOVE all Korean lettering and the small English subtitle ribbon from the reference. Replace the entire title area to the right of the emblem with prominent ENGLISH title typography in TWO balanced lines:
+Line 1: "Team Rocket"
+Line 2: "Marine Division"
+
+Those two lines together spell the exact name "Team Rocket Marine Division". Use the capitalization exactly as written. Carefully spell "Division" D-i-v-i-s-i-o-n with legible dotted lowercase i glyphs. No y. Do not repeat the title as a small subtitle.
+
+"Team Rocket" is crimson red, matching the red Korean branding in the reference. "Marine Division" is warm ivory above and aqua/teal below, matching the reference marine lettering. Both lines are large substantial headline lettering, not thin small subtitle text. Balance their widths through sensible font scale and spacing. Set the two-line block beside the emblem with optical vertical centering, retaining a wide horizontal logo. Include a restrained curling cyan pixel-wave underline below the lower line, stylistically matching the waves around the emblem. Keep enough breathing room between letters and lines for immediate readability.
+
+One finished English-only logo, no Korean text, no slogans or labels. Genuine transparent background with transparent padding on all sides. Preserve crisp intentional square pixel clusters, stepped outlines and consistent pixel grid; no blur, antialiasing haze, vector-smooth curves, stray colored pixels or mockup background. All lettering and full emblem visible and uncropped.

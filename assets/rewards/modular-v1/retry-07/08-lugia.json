@@ -1,0 +1,15 @@
+{
+  "id": "lugia",
+  "nameKo": "루기아",
+  "kind": "boss",
+  "edit": false,
+  "date": "2026-10-07",
+  "promptFile": "prompts/retry-07/lugia.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/lugia.png"
+  ],
+  "generationSucceeded": true,
+  "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-1df498d1-91b2-40a6-9d58-f00af783f0b5.png",
+  "file": "bosses/lugia.png",
+  "status": "generated"
+}

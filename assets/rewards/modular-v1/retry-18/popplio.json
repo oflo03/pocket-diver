@@ -1,0 +1,10 @@
+{
+  "id": "popplio",
+  "nameKo": "누리공",
+  "date": "2026-10-13",
+  "promptFile": "prompts/retry-18/popplio.txt",
+  "generationSucceeded": false,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 143802f1-dd6b-4c40-b50f-5c1e7af2bde5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "143802f1-dd6b-4c40-b50f-5c1e7af2bde5"
+}

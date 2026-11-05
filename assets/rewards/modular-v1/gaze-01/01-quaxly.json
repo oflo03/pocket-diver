@@ -1,0 +1,15 @@
+{
+  "id": "quaxly",
+  "nameKo": "꾸왁스",
+  "kind": "player",
+  "edit": true,
+  "date": "2026-10-07",
+  "promptFile": "prompts/gaze-01/quaxly.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/assets/rewards/modular-v1/players/quaxly.png"
+  ],
+  "generationSucceeded": true,
+  "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-b1b01217-20e0-4e82-8ac2-9cf61c58a41e.png",
+  "file": "players/quaxly-boss-gaze-v2.png",
+  "status": "generated"
+}

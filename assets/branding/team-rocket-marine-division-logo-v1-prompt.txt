@@ -1,0 +1,25 @@
+Tool: built-in image_gen
+Date: 2026-10-05 (Asia/Seoul)
+Output: team-rocket-marine-division-logo-v1.png
+Final generation: exec-ee37e075-ce17-4859-a4b8-1ad5464b4e81.png
+
+Initial prompt:
+Create a polished PIXEL ART LOGO for a personal underwater exploration game, titled exactly:
+Korean main title: "로켓단 해양 수산부"
+English subtitle: "Team Rocket Marine Division"
+
+Brand concept: Team Rocket's maritime division, a mischievous retro marine organization. A bold recognizable crimson capital R at the center of a compact naval emblem, combined with a dark navy anchor and two stylized cyan/teal ocean waves. Treat the R as the visual hero, keep the anchor secondary and legible, and integrate the waves into the bottom of the emblem. No characters or creatures needed.
+
+Layout: one finished horizontal title logo, with the compact emblem at left and clean Korean title prominently at right, English subtitle neatly aligned underneath. Balanced unified lockup that works on a game title screen. Generous transparent padding around the complete silhouette. Both exact text lines must be complete, correctly spelled, readable and not cropped. Korean lettering should be carefully drawn blocky Hangul, using clear syllable blocks and moderate spacing; the subtitle uses crisp small uppercase/lowercase pixel lettering matching the exact spelling above.
+
+Style: authentic 16-bit game pixel graphics, deliberate square pixel clusters, stepped geometry, consistent pixel grid, dark navy pixel outlines, limited palette of crimson red, marine blue, teal, pale aqua and warm off-white. Strong silhouette and restrained two-tone highlights; simple dark outline or pixel offset to keep letters readable against both light and dark scenes. No smooth vector curves, gradients, antialiasing, painterly texture, glow or 3D mockup. Sophisticated, compact and readable rather than cluttered. No extra wording, slogans, watermark or sample color palettes. One logo only. Real transparent background, not a checkerboard illustration.
+
+Final text-correction prompt:
+Edit this logo with a precise TYPOGRAPHY CORRECTION ONLY. Keep the red R and navy anchor emblem, waves, composition, Korean title, colors, pixel-art rendering, proportions and transparent background unchanged.
+
+The English subtitle must read EXACTLY:
+Team Rocket Marine Division
+
+The last word is spelled D-i-v-i-s-i-o-n. Correct the currently misspelled-looking last word to "Division", using clearly distinct pixel glyphs, with a lowercase i and its separate dot after the v. There is no y anywhere in the subtitle. Preserve the existing pixel font size and cream/teal color division. All English letters must be accurately formed and easy to read. The Korean text remains "로켓단 해양 수산부", with a little word spacing where practical, but do not alter its glyphs or overall design.
+
+No other changes. Real transparent background, no added checkerboard, mockup or extra text.

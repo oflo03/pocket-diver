@@ -1,0 +1,10 @@
+{
+  "id": "marshtomp",
+  "nameKo": "늪짱이",
+  "date": "2026-10-08",
+  "promptFile": "prompts/retry-09/marshtomp.txt",
+  "generationSucceeded": false,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c26c38db-97db-4dfb-b7ad-ef6621e1aca7.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "c26c38db-97db-4dfb-b7ad-ef6621e1aca7"
+}

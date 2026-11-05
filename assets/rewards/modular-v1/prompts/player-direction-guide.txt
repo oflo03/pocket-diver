@@ -1,0 +1,5 @@
+{
+  "playerPosition": "left foreground",
+  "target": "captured boss on center-right plinth",
+  "requirement": "Head and pupils should clearly face right toward the boss, with downward inclination for tall characters; avoid eye contact with the camera. Apply to new and retried player cutouts."
+}

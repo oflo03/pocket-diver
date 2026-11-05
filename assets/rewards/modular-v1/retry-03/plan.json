@@ -1,0 +1,153 @@
+{
+  "round": "retry-03",
+  "mode": "built-in image_gen",
+  "scope": "One retry of each of the 13 remaining assets",
+  "items": [
+    {
+      "id": "lugia",
+      "nameKo": "루기아",
+      "kind": "boss",
+      "details": "Exactly ONE normal Lugia. White sleek dragon-bird with long curved neck, narrow head, dark blue pointed eye spikes/mask, blue belly plate, two large hand-like white wings with clearly separated broad feather fingers, dark blue rectangular back plates and two tail spikes. Resting on folded legs with wings partly folded inward to a compact width, head raised looking toward right, full long tail curled alongside body. A loose dark navy capture net surrounds lower body and folded wings, small brass knots, with head and face completely visible. Calm captured pose, no injury. Do not turn wings into small human hands; no extra wings. No platform/furniture.",
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/lugia.png"
+      ],
+      "promptFile": "prompts/retry-03/lugia.txt"
+    },
+    {
+      "id": "kyogre",
+      "nameKo": "가이오가",
+      "kind": "boss",
+      "details": "Exactly ONE normal Kyogre, NOT Primal. Large broad blue orca-like body, white lower jaw and belly, red geometric circuit-like markings along face and BOTH enormous pectoral fins, characteristic white oval fingerlike tips on those fins, yellow eyes, a paired ribbonlike split tail. Full broad body and both fins entirely visible, facing three-quarter right, resting compactly with fins angled slightly back and tail curved behind. A loose dark navy capture net surrounds lower body, fins remain recognizable and face uncovered, small brass knots. Calm captured pose, no injury, no extra fins. No platform/furniture.",
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/kyogre.png"
+      ],
+      "promptFile": "prompts/retry-03/kyogre.txt"
+    },
+    {
+      "id": "squirtle",
+      "nameKo": "꼬부기",
+      "stage": 1,
+      "details": "Small blue turtle, rounded blue head, big reddish eyes, cream segmented belly shell, brown back shell with pale rim, thick curling blue tail. Two short natural paws and feet, three tiny digits, cheerful upright pose with one relaxed presenting paw.",
+      "kind": "player",
+      "index": 4,
+      "inputs": null,
+      "promptFile": "prompts/retry-03/squirtle.txt"
+    },
+    {
+      "id": "wartortle",
+      "nameKo": "어니부기",
+      "stage": 2,
+      "details": "Blue turtle, pointed furry light blue ear fins, distinctive fluffy curled pale-blue tail, cream belly shell and brown carapace with pale rim, reddish eyes, small tooth. Confident upright pose, preserve original ears and large cloudlike curled tail.",
+      "kind": "player",
+      "index": 5,
+      "inputs": null,
+      "promptFile": "prompts/retry-03/wartortle.txt"
+    },
+    {
+      "id": "blastoise",
+      "nameKo": "거북왕",
+      "stage": 3,
+      "details": "Large stocky bipedal blue turtle with cream segmented belly, thick brown shell with pale rim, exactly TWO gray metal water cannons emerging from the shoulders of the shell and angled upward behind head. Short sturdy clawed paws and feet; calm proud stance, no firing.",
+      "kind": "player",
+      "index": 6,
+      "inputs": null,
+      "promptFile": "prompts/retry-03/blastoise.txt"
+    },
+    {
+      "id": "feraligatr",
+      "nameKo": "장크로다일",
+      "stage": 3,
+      "details": "Strong large blue bipedal crocodile, long square snout, red jagged crests on head/back/tail, pale yellow angular belly armor, muscular short arms with white claws, strong clawed legs and thick tail. Relaxed powerful proud posture, no attack.",
+      "kind": "player",
+      "index": 9,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/feraligatr.png"
+      ],
+      "promptFile": "prompts/retry-03/feraligatr.txt"
+    },
+    {
+      "id": "marshtomp",
+      "nameKo": "늪짱이",
+      "stage": 2,
+      "details": "Blue bipedal amphibian, tall dark blue head fin, orange cheek gills, pale blue belly, orange belly and ankle patches, flattened dark tail fin. Broad flat original hands with short digits, sturdy bent legs; relaxed upright pose.",
+      "kind": "player",
+      "index": 11,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/marshtomp.png"
+      ],
+      "promptFile": "prompts/retry-03/marshtomp.txt"
+    },
+    {
+      "id": "piplup",
+      "nameKo": "팽도리",
+      "stage": 1,
+      "details": "Small round penguin, light blue body, dark blue head/cape, white face mask, little yellow beak, two white belly spots, short natural flippers and yellow feet. Cheerful upright pose, one flipper lifted slightly.",
+      "kind": "player",
+      "index": 13,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/piplup.png"
+      ],
+      "promptFile": "prompts/retry-03/piplup.txt"
+    },
+    {
+      "id": "empoleon",
+      "nameKo": "엠페르트",
+      "stage": 3,
+      "details": "Tall regal dark navy emperor penguin, distinct golden three-pronged trident beak crest, blue eyes, pale front, white frilled collar, metallic edged wide flippers, yellow three-toed feet. Flippers relaxed at sides, upright proud pose.",
+      "kind": "player",
+      "index": 15,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/empoleon.png"
+      ],
+      "promptFile": "prompts/retry-03/empoleon.txt"
+    },
+    {
+      "id": "greninja",
+      "nameKo": "개굴닌자",
+      "stage": 3,
+      "details": "Normal blue Greninja, NOT Ash form. Angular dark blue frog ninja, large pointed head fins, pale yellow face areas, red eyes, pink tongue scarf wrapped around neck with end trailing behind, long slim limbs, white round joint pads and natural three-digit webbed hands/feet. Calm low upright stance, not attacking, no shuriken.",
+      "kind": "player",
+      "index": 18,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/greninja.png"
+      ],
+      "promptFile": "prompts/retry-03/greninja.txt"
+    },
+    {
+      "id": "popplio",
+      "nameKo": "누리공",
+      "stage": 1,
+      "details": "Small dark blue sea lion with round pink nose, big eyes, pale blue ruffled collar, large front flippers and split tail flippers. Seated upright natural sea-lion pose, cheerful; flippers remain flippers, no hands.",
+      "kind": "player",
+      "index": 19,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/popplio.png"
+      ],
+      "promptFile": "prompts/retry-03/popplio.txt"
+    },
+    {
+      "id": "brionne",
+      "nameKo": "키요공",
+      "stage": 2,
+      "details": "Light blue sea lion with darker blue twin ear-like head flaps, pink nose, white ruff at neck, blue scalloped skirt-like body frill, wide short front flippers and fluked tail. Graceful upright seated pose, accurate flipper anatomy.",
+      "kind": "player",
+      "index": 20,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/brionne.png"
+      ],
+      "promptFile": "prompts/retry-03/brionne.txt"
+    },
+    {
+      "id": "sobble",
+      "nameKo": "울머기",
+      "stage": 1,
+      "details": "Tiny light blue chameleon-like water lizard, big eyes, yellow upright paddle-shaped crest on head, dark blue cheek marks, pale blue belly, thin arms and legs with two-lobed tiny hands/feet and curled blue tail. Shy pleased upright stance, no tears or effects.",
+      "kind": "player",
+      "index": 22,
+      "inputs": [
+        "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/sobble.png"
+      ],
+      "promptFile": "prompts/retry-03/sobble.txt"
+    }
+  ]
+}

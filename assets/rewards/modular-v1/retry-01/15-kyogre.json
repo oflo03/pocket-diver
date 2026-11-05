@@ -1,0 +1,12 @@
+{
+  "id": "kyogre",
+  "nameKo": "가이오가",
+  "kind": "boss",
+  "promptFile": "prompts/retry-01/kyogre.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/kyogre.png"
+  ],
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b0fd1c11-4b5e-4604-be67-e2103508f304.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "b0fd1c11-4b5e-4604-be67-e2103508f304"
+}

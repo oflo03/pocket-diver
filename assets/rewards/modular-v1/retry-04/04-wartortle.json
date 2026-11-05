@@ -1,0 +1,10 @@
+{
+  "id": "wartortle",
+  "nameKo": "어니부기",
+  "kind": "player",
+  "promptFile": "prompts/retry-04/wartortle.txt",
+  "inputs": null,
+  "status": "generated",
+  "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-3abebbc0-3a73-4377-9235-7ca831462590.png",
+  "file": "players/wartortle.png"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "marshtomp",
+  "nameKo": "늪짱이",
+  "kind": "player",
+  "edit": false,
+  "date": "2026-10-07",
+  "promptFile": "prompts/retry-06/marshtomp.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/marshtomp.png"
+  ],
+  "generationSucceeded": false,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e4c42d40-29e0-4f5c-af3d-8a72b2869c91.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "e4c42d40-29e0-4f5c-af3d-8a72b2869c91"
+}

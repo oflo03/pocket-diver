@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>대검귀 pixelfx 뷰어</title>
+<!-- Dev-only page (npm run dev, then /assets/player/pixelfx-samurott/viewer.html): the game's Samurott sheet next to
+     the pixelfx overpaint from scripts/samurott-pixelfx.mjs (body sheets + separate effect sheets). Not used by the game. -->
+<style>
+  body { margin: 0; background: #02101c; color: #e8f6ff; font: 13px/1.4 system-ui, sans-serif; }
+  header { position: sticky; top: 0; z-index: 1; display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 8px 12px; background: #04192a; border-bottom: 1px solid #1d4660; }
+  header div { display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
+  header span { color: #7fa6bf; margin-right: 3px; }
+  button { font: inherit; color: inherit; background: #0d2a40; border: 1px solid #1d4660; border-radius: 4px; padding: 3px 8px; cursor: pointer; }
+  button.on { background: #2a6f9a; border-color: #5fb0e0; }
+  main { display: flex; flex-wrap: wrap; gap: 16px; padding: 14px 12px; }
+  figure { margin: 0; display: grid; justify-items: center; gap: 4px; padding: 8px; border-radius: 6px; }
+  figcaption { color: #7fa6bf; }
+  canvas { image-rendering: pixelated; max-width: calc(100vw - 40px); }
+  #info { padding: 0 12px 16px; color: #7fa6bf; }
+</style>
+</head>
+<body>
+<header>
+  <div id="anims"><span>동작</span></div>
+  <div id="views"><span>보기</span></div>
+  <div id="layers"><span>이펙트</span></div>
+  <div id="speeds"><span>속도</span></div>
+  <div id="zooms"><span>배율</span></div>
+  <div id="bgs"><span>배경</span></div>
+  <div><button id="pause">일시정지</button><button id="back">◀</button><button id="next">▶</button></div>
+</header>
+<main id="grid"></main>
+<div id="info"></div>
+<script type="module">
+const s = await (await fetch('samurott-pixelfx.json')).json();
+const [FW, FH] = s.frame;
+const NAMES = { idle: '대기', walk: '걷기', float: '물속 대기', swim_slow: '헤엄 1', swim: '헤엄 2', swim_mid: '헤엄 3', swim_fast: '헤엄 4',
+  dash: '돌진', shoot: '발사', tail: '꼬리', pump: '뿜기', recharge: '반동', hurt: '피격', focus: '집중', sheathe: '납도', sheathe_swim: '납도(물)',
+  chop: '내려찍기', x_cut: 'X자 베기', fury: '연속 베기', sweep: '가로베기', rise: '올려베기', dash_cut: '돌진 베기', fury_chain: '연속 베기(이어)' };
+const label = n => (NAMES[n.replace(/_(drawn|iai)$/, '')] ?? n) + (n.endsWith('_drawn') ? ' (발도)' : n.endsWith('_iai') ? ' (발도베기)' : '');
+const BGS = { 물: '#0b3550', 어둡게: '#151515', 밝게: '#d8dde0' };
+const VIEWS = { '나란히': ['orig', 'fx'], 'pixelfx만': ['fx'], '원본만': ['orig'] };
+const st = { anim: 'chop', view: '나란히', speed: '1', zoom: '3', bg: '#0b3550', paused: false, t: 0, fx: 'on' };
+const $ = id => document.getElementById(id);
+const load = list => list.map(src => Object.assign(new Image(), { src }));
+const pages = { orig: load(s.original), fx: load(s.image), effects: load(s.effects) };
+
+function buttons(id, key, entries) {
+  for (const [text, v] of entries) {
+    const b = Object.assign(document.createElement('button'), { textContent: text });
+    b.dataset.k = key; b.dataset.v = v;
+    b.onclick = () => { st[key] = v; if (key === 'anim') st.t = 0; build(); };
+    $(id).append(b);
+  }
+}
+buttons('anims', 'anim', Object.keys(s.anims).map(n => [label(n), n]));
+buttons('views', 'view', Object.keys(VIEWS).map(v => [v, v]));
+buttons('layers', 'fx', [['켜기', 'on'], ['끄기', 'off'], ['이펙트만', 'only']]);
+buttons('speeds', 'speed', ['0.25', '0.5', '1'].map(v => [v + '×', v]));
+buttons('zooms', 'zoom', ['2', '3', '4', '6'].map(v => [v + '×', v]));
+buttons('bgs', 'bg', Object.entries(BGS));
+
+let cells = [];
+function build() {
+  for (const b of document.querySelectorAll('header button[data-k]')) b.classList.toggle('on', st[b.dataset.k] === b.dataset.v);
+  $('grid').innerHTML = ''; cells = [];
+  for (const kind of VIEWS[st.view]) {
+    const fig = document.createElement('figure'), cv = Object.assign(document.createElement('canvas'), { width: FW, height: FH });
+    cv.style.width = FW * st.zoom + 'px';
+    fig.style.background = st.bg;
+    fig.append(cv, Object.assign(document.createElement('figcaption'), { textContent: kind === 'fx' ? 'pixelfx 덧그림 (몸 시트 + 이펙트 시트)' : '원본' }));
+    $('grid').append(fig);
+    cells.push({ kind, ctx: cv.getContext('2d') });
+  }
+  $('pause').textContent = st.paused ? '재생' : '일시정지';
+  draw();
+}
+
+// one-shot animations replay after a short hold on their last frame
+function frameAt(a, t) {
+  const n = a.frames.length, tt = t % (n / a.fps + (a.loop ? 0 : 0.6));
+  return Math.min(n - 1, Math.floor(tt * a.fps));
+}
+function draw() {
+  const a = s.anims[st.anim], i = frameAt(a, st.t), g = a.frames[i], pg = Math.floor(g / s.perPage), j = g % s.perPage;
+  for (const c of cells) {
+    // the overpaint is two sheets in the same layout: the body, then the effects over it
+    const layers = c.kind === 'orig' ? [pages.orig] : st.fx === 'on' ? [pages.fx, pages.effects] : st.fx === 'off' ? [pages.fx] : [pages.effects];
+    c.ctx.clearRect(0, 0, FW, FH);
+    for (const L of layers) if (L[pg].complete) c.ctx.drawImage(L[pg], (j % s.cols) * FW, Math.floor(j / s.cols) * FH, FW, FH, 0, 0, FW, FH);
+  }
+  const hits = [a.hit, a.hit2].filter(h => h != null).map(h => Math.round(h * a.fps));
+  $('info').textContent = `${label(st.anim)} · ${i + 1}/${a.frames.length} 프레임 · ${a.fps}fps · ${a.loop ? '반복' : '한 번'}` + (hits.length ? ` · 타격 ${hits.map(h => h + 1).join(', ')}프레임` : '') + (hits.includes(i) ? ' ◀ 타격' : '');
+}
+let last = performance.now();
+function tick(now) {
+  if (!st.paused) st.t += (now - last) / 1000 * st.speed;
+  last = now;
+  draw();
+  requestAnimationFrame(tick);
+}
+const stepBy = d => { const a = s.anims[st.anim]; st.paused = true; st.t = Math.max(0, (frameAt(a, st.t) + d + 0.5) / a.fps); build(); };
+$('pause').onclick = () => { st.paused = !st.paused; build(); };
+$('back').onclick = () => stepBy(-1);
+$('next').onclick = () => stepBy(1);
+addEventListener('keydown', e => {
+  if (e.key === ' ') { e.preventDefault(); $('pause').click(); }
+  if (e.key === 'ArrowLeft') stepBy(-1);
+  if (e.key === 'ArrowRight') stepBy(1);
+});
+build();
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>

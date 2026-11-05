@@ -1,0 +1,15 @@
+{
+  "id": "lugia",
+  "nameKo": "루기아",
+  "kind": "boss",
+  "edit": false,
+  "date": "2026-10-07",
+  "promptFile": "prompts/retry-06/lugia.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/lugia.png"
+  ],
+  "generationSucceeded": false,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 70f160be-9172-45e3-a0fd-fa7e09abbcec.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "70f160be-9172-45e3-a0fd-fa7e09abbcec"
+}

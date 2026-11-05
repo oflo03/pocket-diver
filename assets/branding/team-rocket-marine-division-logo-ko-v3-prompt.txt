@@ -1,0 +1,34 @@
+Tool: built-in image_gen
+Date: 2026-10-05 (Asia/Seoul)
+Output: team-rocket-marine-division-logo-ko-v3.png
+First reference: team-rocket-marine-division-logo-v1.png
+Layout result: exec-2987b7a4-b8b1-45fd-830f-a1c46e8a3588.png
+Cleaned result: exec-2efa16ac-f5f9-4f90-aae0-5d3bbb3efe9e.png
+
+Layout regeneration prompt:
+Redesign this pixel-art game logo as a cohesive KOREAN-ONLY title logo. The reference is for its appealing red/navy/aqua palette, chunky retro pixel-lettering and R-anchor marine identity. Rebuild the COMPOSITION instead of tracing its long one-line layout or deleting a subtitle from it.
+
+Exact Korean title, arranged in two lines:
+로켓단
+해양 수산부
+
+Use a compact, balanced horizontal lockup with an emblem at LEFT and a TWO-LINE Korean title block at RIGHT.
+- Top line "로켓단": bold crimson red, a smaller organizational heading.
+- Bottom line "해양 수산부": the prominent title, ivory upper faces and turquoise lower faces. Five clean Hangul syllables with a clear modest space between 해양 and 수산부.
+- Both lines align on the left and are tightly spaced into one intentional typography block. The upper line is subordinate; do not spread its three glyphs unnaturally to fill the whole width. Use natural readable Hangul proportions, consistent stroke weights, balanced counters and a level baseline.
+- The FULL emblem height should closely match the COMBINED height of these two title lines, within roughly ten percent. No tall anchor tower sticking far above the title. The emblem occupies approximately one quarter to one third of the overall width.
+- Red R is the center of a compact navy anchor, with a small top ring, clear anchor arms and a short paired wave curl at its base. Simplify intricate inner fragments and keep the R easy to recognize.
+- Keep the emblem distinct but close to the text with a narrow deliberate gap; neither emblem nor waves obscure any letter.
+- A consistent dark navy shadow/outline and a thin warm-ivory outer edge give both emblem and text one visual system. Avoid thick nested outlines, separate word-shaped plaques, random notches and collision points.
+- NO long wave underline beneath the text, NO ribbon, NO subtitle box, NO empty space reserved for removed wording. All ocean waves belong inside the compact left emblem. The bottom of the title is clean and finished immediately below the letter shadows.
+
+Aim for a well-balanced game title logo with a naturally compact wide silhouette, approximately 2.3:1, readable at thumbnail scale. Preserve the original playful retro-adventure mood and high contrast. Authentic deliberate 16-bit pixel art: consistent square pixel grid, clean stepped edges, solid pixel clusters, two or three restrained shade bands per color, a few crisp highlights. No blurry gradients, antialiasing fringe, painterly shading or distressed edges.
+
+One finished Korean logo only on a genuine transparent background, generous even transparent outer margins. The only letters outside the Korean title are the single emblem R. No English subtitle, no translation, no filler text, no dates, no added sea creatures, no background scene. Make sure every Korean syllable is correctly spelled and unobscured.
+
+Cleanup prompt:
+Perform a final cleanup edit on this Korean pixel-art logo. Preserve the COMPLETE logo design exactly: compact red R/navy anchor/cyan waves emblem on the left and the two-line Korean title "로켓단" above "해양 수산부" on the right. Preserve all Korean glyphs, colors, line breaks, layout, proportions and pixel shading.
+
+REMOVE the small detached PURPLE/BLUE smudge located below and slightly left of the emblem, near the bottom image edge. This smudge is an unwanted generation artifact and is NOT part of the logo. Also remove isolated colored speckles and gray fuzz outside the intended ivory/navy silhouette. Every pixel outside the actual logo silhouette must be fully transparent. Preserve the crisp stair-stepped pixel-art edges, internal dark navy areas, anchor, waves, and letter details; do not erase those. Use clean transparent cutout edges without a gray/colored halo.
+
+Place the clean intact logo comfortably inside the canvas with modest even transparent padding on all four sides, especially below the anchor tip. No cropping of the logo. Do not add a shadow, backdrop, texture, watermark, new text, subtitle, underline or any new object. Only remove unwanted artifacts and finish the transparent edges.

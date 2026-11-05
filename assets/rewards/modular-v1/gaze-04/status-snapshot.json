@@ -1,0 +1,1365 @@
+{
+  "date": "2026-10-06",
+  "mode": "built-in image_gen",
+  "status": "partial_due_to_repeated_moderation_blocked",
+  "intended": {
+    "backgrounds": 1,
+    "players": 27,
+    "bosses": 3
+  },
+  "actual": {
+    "backgrounds": 1,
+    "players": 20,
+    "bosses": 3
+  },
+  "imageCallCount": 139,
+  "completed": [
+    {
+      "id": "dewott",
+      "nameKo": "쌍검자비",
+      "stage": 2,
+      "details": "Extract and faithfully preserve Dewott from image 1 as the only isolated subject. Cyan head, uneven two-point crest, sharp white cheek whiskers, pink nose, flat charcoal paws and feet, blue ragged lower coat, exactly two cream segmented shells attached to hips, one broad paddle tail. Same confident presenting pose as the approved sample, no weapons.",
+      "kind": "player",
+      "index": 2,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-9afe71e8-b738-47a8-af1c-215cc07dccd0.png",
+      "file": "players/dewott.png",
+      "promptFile": "prompts/dewott.txt"
+    },
+    {
+      "id": "samurott",
+      "nameKo": "대검귀",
+      "stage": 3,
+      "details": "Normal Unovan Samurott, NOT Hisuian. Powerful quadruped blue sea lion, cream ridged helmet with long forward horn, large flowing angular white mustache, cream segmented shell armor on forelegs and hindquarters, blue flipper tail. Mouth closed. Stand naturally on four short webbed limbs, head turned toward right; shells stay sheathed, no held weapons, no humanoid arms.",
+      "kind": "player",
+      "index": 3,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-cf3a679d-ac09-4712-b37b-4775c8d3bf13.png",
+      "file": "players/samurott-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-02/samurott.txt"
+    },
+    {
+      "id": "oshawott",
+      "nameKo": "수댕이",
+      "stage": 1,
+      "details": "White round head, dark blue ears, orange-brown oval nose, teal body with collar bumps, white tapered mitten-like paws, dark blue feet and one broad navy paddle tail. One cream segmented scallop shell attached to belly, central panel and two side lobes. Cheerful attentive standing pose; shells remain attached, no sword.",
+      "kind": "player",
+      "index": 1,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-af367388-54c4-4ca8-bfd9-aa0e94658b4a.png",
+      "file": "players/oshawott.png",
+      "promptFile": "prompts/oshawott.txt"
+    },
+    {
+      "id": "manaphy-phione",
+      "nameKo": "마나피와 피오네 3마리",
+      "kind": "boss",
+      "details": "Exactly ONE Manaphy with two long curved antennae and yellow eye markings, plus exactly THREE smaller Phione each with a single curled head antenna, original white facial patches and blue bodies. Preserve the four-creature group composition of image 1. Four unobscured faces. Include the loosely gathered dark navy capture net under and around their lower bodies, small brass knots, no net over faces. No plinth or furniture.",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-5f616fa1-6611-426e-af31-a0e68d0fde6d.png",
+      "file": "bosses/manaphy-phione-sad-v1.png",
+      "promptFile": "prompts/manaphy-phione-sad-v1.txt"
+    },
+    {
+      "id": "prinplup",
+      "nameKo": "팽태자",
+      "stage": 2,
+      "details": "Medium blue penguin with dark blue head/cape, large white oval belly bearing four blue spots, yellow twin pointed brow/beak crest, short broad dark flippers and yellow feet. Upright confident formal posture, original flipper anatomy.",
+      "kind": "player",
+      "index": 14,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-a03d70c1-8ef4-4175-aed1-88db4289bcfa.png",
+      "file": "players/prinplup.png",
+      "promptFile": "prompts/prinplup.txt"
+    },
+    {
+      "id": "froakie",
+      "nameKo": "개구마르",
+      "stage": 1,
+      "details": "Small blue frog with two large raised yellow eyes, pale stripe on face, white fluffy bubble collar around neck and white bubble cushions near back, long thin blue limbs with rounded small white fingers/toes. Compact upright squat, friendly attentive; bubble collar is anatomy, no floating effects.",
+      "kind": "player",
+      "index": 16,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-2ccda2bb-a837-48cf-afe7-50f2591032b4.png",
+      "file": "players/froakie-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-01/froakie.txt"
+    },
+    {
+      "id": "frogadier",
+      "nameKo": "개굴반장",
+      "stage": 2,
+      "details": "Slim medium blue frog with dark blue upper head mask, narrowed yellow eyes, white bubble scarf around neck, thin limbs ending in original white round-tipped frog digits. Relaxed nimble upright crouch, face readable, no weapons or water effects.",
+      "kind": "player",
+      "index": 17,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-403f8276-2f77-4ae3-a73e-bac57c3470c2.png",
+      "file": "players/frogadier.png",
+      "promptFile": "prompts/frogadier.txt"
+    },
+    {
+      "id": "primarina",
+      "nameKo": "누리레느",
+      "stage": 3,
+      "details": "Elegant white mermaid sea lion with flowing pale cyan hair, pink starfish hair ornament, pink nose, blue fin-shaped ears, long white foreflippers, blue scaled mermaid tail and layered pale fins. Gracefully seated on curled tail, face turned right, both flippers readable. No human legs, no clothing, no water effects.",
+      "kind": "player",
+      "index": 21,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-64f874d2-0b8e-4300-8795-cfdcfcd44835.png",
+      "file": "players/primarina-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-02/primarina.txt"
+    },
+    {
+      "id": "drizzile",
+      "nameKo": "누겔레온",
+      "stage": 2,
+      "details": "Green-blue lizard with drooping purple-blue fringe covering one eye, lime-green mitten-like small hands and feet, dark blue belly and curly tail. Slouched relaxed original posture, visible yellow eye, no human fingers.",
+      "kind": "player",
+      "index": 23,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-cfb4f789-482a-4bfb-8347-71bc24afbb1e.png",
+      "file": "players/drizzile.png",
+      "promptFile": "prompts/drizzile.txt"
+    },
+    {
+      "id": "inteleon",
+      "nameKo": "인텔리레온",
+      "stage": 3,
+      "details": "Very tall slender blue lizard with pointed yellow head crest, slim dark navy torso and upper limbs, pale blue belly, long thin tail, angular narrow yellow eyes, long delicate blue fingers and three-pronged feet. Relaxed suave upright posture, one natural hand at hip, no finger-gun pose or weapons.",
+      "kind": "player",
+      "index": 24,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-5a40ac33-c89c-4940-9856-9062a66ed0cc.png",
+      "file": "players/inteleon.png",
+      "promptFile": "prompts/inteleon.txt"
+    },
+    {
+      "id": "quaxly",
+      "nameKo": "꾸왁스",
+      "stage": 1,
+      "details": "Small white duck with smooth turquoise swept cap-like head plumage and darker wave mark, large blue eyes, yellow beak and bright turquoise webbed feet, white short wings. Neat cheerful standing pose, original wings not human hands.",
+      "kind": "player",
+      "index": 25,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-b1b01217-20e0-4e82-8ac2-9cf61c58a41e.png",
+      "file": "players/quaxly-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-01/quaxly.txt"
+    },
+    {
+      "id": "quaquaval",
+      "nameKo": "웨이니발",
+      "stage": 3,
+      "details": "Tall colorful blue dancing duck with large swept turquoise crest, yellow beak, dark blue face and torso, pale chest, red feet, broad feathered arms, teal feather fan tail with large cyan drop-shaped tips connected as tail feathers. Relaxed proud upright dance-rest pose; preserve complete fan silhouette and red webbed feet, no extra free-floating water effects.",
+      "kind": "player",
+      "index": 27,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-6beb2f35-f923-41dc-9047-b87bfc5f00f3.png",
+      "file": "players/quaquaval-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-04/quaquaval.txt"
+    },
+    {
+      "id": "croconaw",
+      "nameKo": "엘리게이",
+      "stage": 2,
+      "details": "Chunky blue bipedal crocodile with large square jaw, prominent red jagged crest and back spikes, pale yellow asymmetrical spotted caveman-bib torso marking, short clawed arms, sturdy feet and tail. Broad natural snout, pleased expression.",
+      "kind": "player",
+      "index": 8,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-af3d8eb2-529c-4afa-b866-c41d4266f50d.png",
+      "file": "players/croconaw.png",
+      "promptFile": "prompts/croconaw.txt"
+    },
+    {
+      "id": "swampert",
+      "nameKo": "대짱이",
+      "stage": 3,
+      "details": "Normal Swampert, NOT Mega. Stocky blue amphibian with TWO tall dark swept-back head fins, orange cheek gills, pale gray-blue belly, dark broad tail fin and orange elbow/knee patches. Long thick forelimbs, large flat original webbed hands and squat rear legs. Low stable proud pose, no human fists.",
+      "kind": "player",
+      "index": 12,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-6acef196-3880-44b9-b52d-85ea32f023cf.png",
+      "file": "players/swampert.png",
+      "promptFile": "prompts/swampert.txt"
+    },
+    {
+      "id": "quaxwell",
+      "nameKo": "아꾸왁",
+      "stage": 2,
+      "details": "Slender white and blue duck with tall smooth swept-back dark blue head plumage, blue face mask around eyes, yellow beak, white neck/chest, blue wing and shorts-like feather areas, long yellow legs and three-toed feet. Graceful poised stance, natural feathered wings.",
+      "kind": "player",
+      "index": 26,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-f1fd9859-abd0-41f0-8d71-1762af9b3ee2.png",
+      "file": "players/quaxwell-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-03/quaxwell.txt"
+    },
+    {
+      "id": "totodile",
+      "nameKo": "리아코",
+      "stage": 1,
+      "details": "Small blue bipedal crocodile, broad square blue snout, red dorsal spikes from back to tail, pale yellow chest chevron, short clawed arms and feet, long blue tail. Happy open mouth with a few triangular teeth, standing confidently.",
+      "kind": "player",
+      "index": 7,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-c7bd7db8-11d5-4e6c-b9cc-c37240115595.png",
+      "file": "players/totodile.png",
+      "promptFile": "prompts/retry-01/totodile.txt"
+    },
+    {
+      "id": "mudkip",
+      "nameKo": "물짱이",
+      "stage": 1,
+      "details": "Small blue quadruped mudfish, one tall blue head fin, orange three-pronged gills on both cheeks, pale blue underside and broad pale-blue tail fin. Four tiny feet, alert cheerful squat pose; no invented human hands.",
+      "kind": "player",
+      "index": 10,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-7ce9d90a-c89f-4a74-85be-42a0c023eb5c.png",
+      "file": "players/mudkip.png",
+      "promptFile": "prompts/retry-02/mudkip.txt"
+    },
+    {
+      "id": "kyogre",
+      "nameKo": "가이오가",
+      "kind": "boss",
+      "details": "Exactly ONE normal Kyogre, NOT Primal. Large broad blue orca-like body, white lower jaw and belly, red geometric circuit-like markings along face and BOTH enormous pectoral fins, characteristic white oval fingerlike tips on those fins, yellow eyes, a paired ribbonlike split tail. Full broad body and both fins entirely visible, facing three-quarter right, resting compactly with fins angled slightly back and tail curved behind. A loose dark navy capture net surrounds lower body, fins remain recognizable and face uncovered, small brass knots. Calm captured pose, no injury, no extra fins. No platform/furniture.",
+      "file": "bosses/kyogre-resting-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-f7cbc377-3d2f-4691-872d-dd85fcd3d73c.png",
+      "promptFile": "prompts/retry-06/kyogre.txt"
+    },
+    {
+      "id": "wartortle",
+      "nameKo": "어니부기",
+      "stage": 2,
+      "details": "Blue turtle, pointed furry light blue ear fins, distinctive fluffy curled pale-blue tail, cream belly shell and brown carapace with pale rim, reddish eyes, small tooth. Confident upright pose, preserve original ears and large cloudlike curled tail.",
+      "kind": "player",
+      "index": 5,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-3abebbc0-3a73-4377-9235-7ca831462590.png",
+      "file": "players/wartortle.png",
+      "promptFile": "prompts/retry-04/wartortle.txt"
+    },
+    {
+      "id": "feraligatr",
+      "nameKo": "장크로다일",
+      "stage": 3,
+      "details": "Strong large blue bipedal crocodile, long square snout, red jagged crests on head/back/tail, pale yellow angular belly armor, muscular short arms with white claws, strong clawed legs and thick tail. Relaxed powerful proud posture, no attack.",
+      "kind": "player",
+      "index": 9,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-bf73bf63-ac42-42cd-b319-8a68e6d82efa.png",
+      "file": "players/feraligatr.png",
+      "promptFile": "prompts/retry-04/feraligatr.txt"
+    },
+    {
+      "id": "empoleon",
+      "nameKo": "엠페르트",
+      "stage": 3,
+      "details": "Tall regal dark navy emperor penguin, distinct golden three-pronged trident beak crest, blue eyes, pale front, white frilled collar, metallic edged wide flippers, yellow three-toed feet. Flippers relaxed at sides, upright proud pose.",
+      "kind": "player",
+      "index": 15,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-5c68d2af-8056-4038-8d48-283fee069dbb.png",
+      "file": "players/empoleon.png",
+      "promptFile": "prompts/retry-04/empoleon.txt"
+    },
+    {
+      "id": "brionne",
+      "nameKo": "키요공",
+      "stage": 2,
+      "details": "Light blue sea lion with darker blue twin ear-like head flaps, pink nose, white ruff at neck, blue scalloped skirt-like body frill, wide short front flippers and fluked tail. Graceful upright seated pose, accurate flipper anatomy.",
+      "kind": "player",
+      "index": 20,
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-e94eb0da-2b57-4c46-accc-21764fe0e804.png",
+      "file": "players/brionne.png",
+      "promptFile": "prompts/retry-04/brionne.txt"
+    },
+    {
+      "id": "lugia",
+      "nameKo": "루기아",
+      "kind": "boss",
+      "details": "Exactly ONE normal Lugia. White sleek dragon-bird with long curved neck, narrow head, dark blue pointed eye spikes/mask, blue belly plate, two large hand-like white wings with clearly separated broad feather fingers, dark blue rectangular back plates and two tail spikes. Resting on folded legs with wings partly folded inward to a compact width, head raised looking toward right, full long tail curled alongside body. A loose dark navy capture net surrounds lower body and folded wings, small brass knots, with head and face completely visible. Calm captured pose, no injury. Do not turn wings into small human hands; no extra wings. No platform/furniture.",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-1df498d1-91b2-40a6-9d58-f00af783f0b5.png",
+      "file": "bosses/lugia.png",
+      "promptFile": "prompts/retry-07/lugia.txt"
+    }
+  ],
+  "missing": [
+    {
+      "id": "squirtle",
+      "nameKo": "꼬부기",
+      "stage": 1,
+      "details": "Small blue turtle, rounded blue head, big reddish eyes, cream segmented belly shell, brown back shell with pale rim, thick curling blue tail. Two short natural paws and feet, three tiny digits, cheerful upright pose with one relaxed presenting paw.",
+      "kind": "player",
+      "index": 4
+    },
+    {
+      "id": "blastoise",
+      "nameKo": "거북왕",
+      "stage": 3,
+      "details": "Large stocky bipedal blue turtle with cream segmented belly, thick brown shell with pale rim, exactly TWO gray metal water cannons emerging from the shoulders of the shell and angled upward behind head. Short sturdy clawed paws and feet; calm proud stance, no firing.",
+      "kind": "player",
+      "index": 6
+    },
+    {
+      "id": "marshtomp",
+      "nameKo": "늪짱이",
+      "stage": 2,
+      "details": "Blue bipedal amphibian, tall dark blue head fin, orange cheek gills, pale blue belly, orange belly and ankle patches, flattened dark tail fin. Broad flat original hands with short digits, sturdy bent legs; relaxed upright pose.",
+      "kind": "player",
+      "index": 11
+    },
+    {
+      "id": "piplup",
+      "nameKo": "팽도리",
+      "stage": 1,
+      "details": "Small round penguin, light blue body, dark blue head/cape, white face mask, little yellow beak, two white belly spots, short natural flippers and yellow feet. Cheerful upright pose, one flipper lifted slightly.",
+      "kind": "player",
+      "index": 13
+    },
+    {
+      "id": "greninja",
+      "nameKo": "개굴닌자",
+      "stage": 3,
+      "details": "Normal blue Greninja, NOT Ash form. Angular dark blue frog ninja, large pointed head fins, pale yellow face areas, red eyes, pink tongue scarf wrapped around neck with end trailing behind, long slim limbs, white round joint pads and natural three-digit webbed hands/feet. Calm low upright stance, not attacking, no shuriken.",
+      "kind": "player",
+      "index": 18
+    },
+    {
+      "id": "popplio",
+      "nameKo": "누리공",
+      "stage": 1,
+      "details": "Small dark blue sea lion with round pink nose, big eyes, pale blue ruffled collar, large front flippers and split tail flippers. Seated upright natural sea-lion pose, cheerful; flippers remain flippers, no hands.",
+      "kind": "player",
+      "index": 19
+    },
+    {
+      "id": "sobble",
+      "nameKo": "울머기",
+      "stage": 1,
+      "details": "Tiny light blue chameleon-like water lizard, big eyes, yellow upright paddle-shaped crest on head, dark blue cheek marks, pale blue belly, thin arms and legs with two-lobed tiny hands/feet and curled blue tail. Shy pleased upright stance, no tears or effects.",
+      "kind": "player",
+      "index": 22
+    }
+  ],
+  "errors": [
+    {
+      "id": "oshawott",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d63d4b58-603c-4c5d-9e92-9e27857125b3.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "d63d4b58-603c-4c5d-9e92-9e27857125b3"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1e1a852c-9969-457d-8e56-563aa298e89b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "1e1a852c-9969-457d-8e56-563aa298e89b"
+    },
+    {
+      "id": "wartortle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3499ac68-3745-432e-8429-1a25eb544bec.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "3499ac68-3745-432e-8429-1a25eb544bec"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 602cb4c3-454b-4604-b528-9d530e41a14d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "602cb4c3-454b-4604-b528-9d530e41a14d"
+    },
+    {
+      "id": "totodile",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 72c1de5b-dadf-4af8-974b-6d163da0f42b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "72c1de5b-dadf-4af8-974b-6d163da0f42b"
+    },
+    {
+      "id": "croconaw",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f0849f26-b39e-4ceb-96cd-b2f200cb82af.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "f0849f26-b39e-4ceb-96cd-b2f200cb82af"
+    },
+    {
+      "id": "feraligatr",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bf01199c-7fb5-47f5-afdc-dbbfac2b7e8f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "bf01199c-7fb5-47f5-afdc-dbbfac2b7e8f"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3221894b-3d8e-4476-84d7-a9d2598fc322.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "3221894b-3d8e-4476-84d7-a9d2598fc322"
+    },
+    {
+      "id": "wartortle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a10d6991-a301-4332-8d5e-0b8cd40ce128.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "a10d6991-a301-4332-8d5e-0b8cd40ce128"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ceb9d5f6-6ff3-483c-b8e6-fe0b5cba808f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "ceb9d5f6-6ff3-483c-b8e6-fe0b5cba808f"
+    },
+    {
+      "id": "mudkip",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 79a62de5-3fba-4887-b749-15594e2dfa6d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "79a62de5-3fba-4887-b749-15594e2dfa6d"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9110ea5e-2dc8-4e81-b20f-b4fb7d9696f1.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "9110ea5e-2dc8-4e81-b20f-b4fb7d9696f1"
+    },
+    {
+      "id": "swampert",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID baa9989a-966c-4917-8ff3-96432127157d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "baa9989a-966c-4917-8ff3-96432127157d"
+    },
+    {
+      "id": "lugia",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 81c3cffa-4cf3-4f2c-8535-77c547434967.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "81c3cffa-4cf3-4f2c-8535-77c547434967"
+    },
+    {
+      "id": "kyogre",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 80268856-abc2-4e3a-93fd-5cddb2c9ba55.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "80268856-abc2-4e3a-93fd-5cddb2c9ba55"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1cff79f9-665e-40b0-b008-f341a5b193e5.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "1cff79f9-665e-40b0-b008-f341a5b193e5"
+    },
+    {
+      "id": "empoleon",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e3539994-87b0-446c-8bc5-0fc614a02c2f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "e3539994-87b0-446c-8bc5-0fc614a02c2f"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e6e6d248-6bd2-4275-ab74-bd8e2f0303a0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "e6e6d248-6bd2-4275-ab74-bd8e2f0303a0"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 26518e92-3bab-477b-887f-8940c1896f9d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "26518e92-3bab-477b-887f-8940c1896f9d"
+    },
+    {
+      "id": "brionne",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 45608a27-bf9d-42d3-80d8-233622e84c22.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "45608a27-bf9d-42d3-80d8-233622e84c22"
+    },
+    {
+      "id": "sobble",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID dcef76da-2b80-4b49-a249-715b819ad919.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "dcef76da-2b80-4b49-a249-715b819ad919"
+    },
+    {
+      "id": "quaxwell",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c2efbcf1-911f-49df-95ac-746147216744.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "c2efbcf1-911f-49df-95ac-746147216744"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID fb2c8bc2-fac9-4755-b72c-66f25d7d195a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "fb2c8bc2-fac9-4755-b72c-66f25d7d195a"
+    },
+    {
+      "id": "wartortle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ffff5126-824c-49b5-9ee1-f084728c74c2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "ffff5126-824c-49b5-9ee1-f084728c74c2"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2f14822a-35bc-41a8-8d6a-704112d91b71.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "2f14822a-35bc-41a8-8d6a-704112d91b71"
+    },
+    {
+      "id": "totodile",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3466a42d-9681-405a-8363-c03282288fe9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "3466a42d-9681-405a-8363-c03282288fe9"
+    },
+    {
+      "id": "feraligatr",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 48659b6c-e02b-4f88-b452-bd6bd8e1e363.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "48659b6c-e02b-4f88-b452-bd6bd8e1e363"
+    },
+    {
+      "id": "mudkip",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f8159509-1431-4fc7-91ac-742b06e8e6bc.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "f8159509-1431-4fc7-91ac-742b06e8e6bc"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b6f9afaf-364f-4bba-95e9-10494100a03a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "b6f9afaf-364f-4bba-95e9-10494100a03a"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0a9e44bb-2816-4869-9200-dd0eeabff12c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "0a9e44bb-2816-4869-9200-dd0eeabff12c"
+    },
+    {
+      "id": "empoleon",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1af75d5e-dc93-4ff9-bbc2-329302f336d8.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "1af75d5e-dc93-4ff9-bbc2-329302f336d8"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 49c1231c-c8a2-4899-b040-f7002e96ede3.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "49c1231c-c8a2-4899-b040-f7002e96ede3"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 54243233-1065-4e09-9686-8d8dd55cb7a3.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "54243233-1065-4e09-9686-8d8dd55cb7a3"
+    },
+    {
+      "id": "brionne",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0b3f44b0-e733-442b-ad73-8f3d220ab52c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "0b3f44b0-e733-442b-ad73-8f3d220ab52c"
+    },
+    {
+      "id": "sobble",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8986c698-a22a-4ec5-8af0-35c3edcedd5f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "8986c698-a22a-4ec5-8af0-35c3edcedd5f"
+    },
+    {
+      "id": "quaxwell",
+      "error": "exec_command failed: CreateProcess { message: \"Rejected(\\\"Failed to create unified exec process: 파일 이름이나 확장명이 너무 깁니다. (os error 206)\\\")\" }",
+      "phase": "progress_log",
+      "requestId": null
+    },
+    {
+      "id": "lugia",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6576d7d0-5cce-455b-8356-463e52199b29.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "6576d7d0-5cce-455b-8356-463e52199b29"
+    },
+    {
+      "id": "kyogre",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 13f1ee96-e9e2-4f99-ad19-e649b6df05ce.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "13f1ee96-e9e2-4f99-ad19-e649b6df05ce"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c5c47435-e263-41b1-b31a-3694470c01fd.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "c5c47435-e263-41b1-b31a-3694470c01fd",
+      "round": "retry-01"
+    },
+    {
+      "id": "wartortle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f844b85b-add9-464e-b2fe-c0d4732de77f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "f844b85b-add9-464e-b2fe-c0d4732de77f",
+      "round": "retry-01"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f6f77517-1b29-44ec-922a-9be63de41aae.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "f6f77517-1b29-44ec-922a-9be63de41aae",
+      "round": "retry-01"
+    },
+    {
+      "id": "feraligatr",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b4434ec0-a064-49a2-9c83-91063d79a779.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "b4434ec0-a064-49a2-9c83-91063d79a779",
+      "round": "retry-01"
+    },
+    {
+      "id": "mudkip",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8771aa1a-1951-4f40-92e9-f323850bb0e9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "8771aa1a-1951-4f40-92e9-f323850bb0e9",
+      "round": "retry-01"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 92c0c997-5890-4bee-95fb-02e9e6e71b2a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "92c0c997-5890-4bee-95fb-02e9e6e71b2a",
+      "round": "retry-01"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0c8ab269-e631-4154-8940-cb1deb86610d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "0c8ab269-e631-4154-8940-cb1deb86610d",
+      "round": "retry-01"
+    },
+    {
+      "id": "empoleon",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 90469e2b-84d9-4e1b-b60d-dec1af1fdf0c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "90469e2b-84d9-4e1b-b60d-dec1af1fdf0c",
+      "round": "retry-01"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e92c72e9-bcc4-4413-b8d2-ab90db2692e2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "e92c72e9-bcc4-4413-b8d2-ab90db2692e2",
+      "round": "retry-01"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0feb8927-e531-405f-a501-4fc023b4044a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "0feb8927-e531-405f-a501-4fc023b4044a",
+      "round": "retry-01"
+    },
+    {
+      "id": "brionne",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bc697c2e-f074-42b5-b0f5-f485fea563c2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "bc697c2e-f074-42b5-b0f5-f485fea563c2",
+      "round": "retry-01"
+    },
+    {
+      "id": "sobble",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 243c5be4-7f4b-4093-95b6-c16abc9da9ab.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "243c5be4-7f4b-4093-95b6-c16abc9da9ab",
+      "round": "retry-01"
+    },
+    {
+      "id": "lugia",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 179b3cc8-90cb-4e70-83b5-12efecadcb7f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "179b3cc8-90cb-4e70-83b5-12efecadcb7f",
+      "round": "retry-01"
+    },
+    {
+      "id": "kyogre",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b0fd1c11-4b5e-4604-be67-e2103508f304.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "b0fd1c11-4b5e-4604-be67-e2103508f304",
+      "round": "retry-01"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0b606c87-c6b7-4b86-8428-f7c4bd98d578.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "0b606c87-c6b7-4b86-8428-f7c4bd98d578",
+      "round": "retry-02"
+    },
+    {
+      "id": "wartortle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7ad3cd38-c939-4c88-8f35-cf1eb548fda2.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "7ad3cd38-c939-4c88-8f35-cf1eb548fda2",
+      "round": "retry-02"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2a5fe7e3-37e3-4076-b2ef-aa6ae4594b83.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "2a5fe7e3-37e3-4076-b2ef-aa6ae4594b83",
+      "round": "retry-02"
+    },
+    {
+      "id": "feraligatr",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 73ac7cf0-a005-468a-8d46-91e86e5662bb.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "73ac7cf0-a005-468a-8d46-91e86e5662bb",
+      "round": "retry-02"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5cc3fba7-ec60-4cfb-9e4f-06468e9a76aa.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "5cc3fba7-ec60-4cfb-9e4f-06468e9a76aa",
+      "round": "retry-02"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7b05c1ed-868b-41ac-ad3c-51d231ec1d5d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "7b05c1ed-868b-41ac-ad3c-51d231ec1d5d",
+      "round": "retry-02"
+    },
+    {
+      "id": "empoleon",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID afc4875d-0073-4567-aba7-f315d753d67e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "afc4875d-0073-4567-aba7-f315d753d67e",
+      "round": "retry-02"
+    },
+    {
+      "id": "lugia",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 35fe2cc3-3fbf-9681-beb8-a5da1435bfea.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "35fe2cc3-3fbf-9681-beb8-a5da1435bfea",
+      "round": "retry-03"
+    },
+    {
+      "id": "kyogre",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 16fc9e56-5911-4a58-bcb7-c857d6a26328.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "16fc9e56-5911-4a58-bcb7-c857d6a26328",
+      "round": "retry-03"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1bdb5fcf-94c9-417a-bc42-1078ab4b1377.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "1bdb5fcf-94c9-417a-bc42-1078ab4b1377",
+      "round": "retry-03"
+    },
+    {
+      "id": "wartortle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5d7d2f62-ba82-4f26-9acf-a3def614066b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "5d7d2f62-ba82-4f26-9acf-a3def614066b",
+      "round": "retry-03"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 69ddec21-f359-4006-91f6-9376fdc1d909.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "69ddec21-f359-4006-91f6-9376fdc1d909",
+      "round": "retry-03"
+    },
+    {
+      "id": "feraligatr",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6975e064-9b39-4496-9c09-1553c04656f4.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "6975e064-9b39-4496-9c09-1553c04656f4",
+      "round": "retry-03"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8ef1feef-b21f-4fe7-a288-bbdd1195161d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "8ef1feef-b21f-4fe7-a288-bbdd1195161d",
+      "round": "retry-03"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e0705f43-f57d-40a9-b09e-a14daffa4856.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "e0705f43-f57d-40a9-b09e-a14daffa4856",
+      "round": "retry-03"
+    },
+    {
+      "id": "empoleon",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1624e624-aa55-4dbd-a598-f5b4d8e8b346.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "1624e624-aa55-4dbd-a598-f5b4d8e8b346",
+      "round": "retry-03"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9f09ac3c-4e83-4036-9ba5-c9651df1f2b4.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "9f09ac3c-4e83-4036-9ba5-c9651df1f2b4",
+      "round": "retry-03"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1308e8af-4386-4d2b-824d-af86864d869b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "1308e8af-4386-4d2b-824d-af86864d869b",
+      "round": "retry-03"
+    },
+    {
+      "id": "brionne",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d99b364c-8f5e-4cc7-913b-d2cdad844d6c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "d99b364c-8f5e-4cc7-913b-d2cdad844d6c",
+      "round": "retry-03"
+    },
+    {
+      "id": "sobble",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 056dd5fe-43d5-4990-a3bf-eb3e1508e918.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "056dd5fe-43d5-4990-a3bf-eb3e1508e918",
+      "round": "retry-03"
+    },
+    {
+      "id": "lugia",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 77b69f24-d9cf-4adf-ab98-eedbd8e5ddc7.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "77b69f24-d9cf-4adf-ab98-eedbd8e5ddc7",
+      "round": "retry-04"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3c5f24c5-4b1e-48f5-8392-51305d3a23ee.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "3c5f24c5-4b1e-48f5-8392-51305d3a23ee",
+      "round": "retry-04"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 79bd6444-ca35-4f01-9359-abeed74445a6.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "79bd6444-ca35-4f01-9359-abeed74445a6",
+      "round": "retry-04"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6ca6d496-1ae8-4c12-ab06-c9839c386e64.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "6ca6d496-1ae8-4c12-ab06-c9839c386e64",
+      "round": "retry-04"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1923a49c-8b01-4a01-811f-64a6980b0f96.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "1923a49c-8b01-4a01-811f-64a6980b0f96",
+      "round": "retry-04"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0cc1aa9c-3348-4ccd-ba3b-c7c18ae6040d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "0cc1aa9c-3348-4ccd-ba3b-c7c18ae6040d",
+      "round": "retry-04"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 70d2443c-4453-4817-b389-8ae664dbbf7b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "70d2443c-4453-4817-b389-8ae664dbbf7b",
+      "round": "retry-04"
+    },
+    {
+      "id": "sobble",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9868d318-1ec2-44d0-9e9a-680b77edfb85.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "9868d318-1ec2-44d0-9e9a-680b77edfb85",
+      "round": "retry-04"
+    },
+    {
+      "id": "lugia",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d627b4d3-c3ee-4f8d-af1f-3813599721d9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "d627b4d3-c3ee-4f8d-af1f-3813599721d9",
+      "round": "retry-05"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID eb039619-6dc7-49fe-9af2-e82a4866b817.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "eb039619-6dc7-49fe-9af2-e82a4866b817",
+      "round": "retry-05"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8002496d-3839-4d59-9c8a-aa09cc79045b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "8002496d-3839-4d59-9c8a-aa09cc79045b",
+      "round": "retry-05"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 881554af-55ff-4617-98f3-a08d09f6cddb.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "881554af-55ff-4617-98f3-a08d09f6cddb",
+      "round": "retry-05"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a732146b-85c7-4db9-be97-61c900a2c756.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "a732146b-85c7-4db9-be97-61c900a2c756",
+      "round": "retry-05"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6f3b24de-f583-498b-a7e4-62afd3767139.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "6f3b24de-f583-498b-a7e4-62afd3767139",
+      "round": "retry-05"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 27096cef-945e-4c70-abc9-59de5ed9a67e.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "27096cef-945e-4c70-abc9-59de5ed9a67e",
+      "round": "retry-05"
+    },
+    {
+      "date": "2026-10-06",
+      "id": "kyogre",
+      "phase": "image_generation",
+      "status": "failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a5dd8c03-0b6c-4b23-af5a-9818bd17d486.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "requestId": "a5dd8c03-0b6c-4b23-af5a-9818bd17d486",
+      "promptFile": "prompts/kyogre-resting-v2.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "kyogre",
+      "phase": "image_generation",
+      "status": "failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 04ebdc7b-8dcb-4d58-ae39-931cded71786.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "requestId": "04ebdc7b-8dcb-4d58-ae39-931cded71786",
+      "promptFile": "prompts/kyogre-resting-v2.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "kyogre",
+      "phase": "image_generation",
+      "status": "failed",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID dbad0237-dd79-4ce4-b3e2-e59e2d2c3bba.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "requestId": "dbad0237-dd79-4ce4-b3e2-e59e2d2c3bba",
+      "promptFile": "prompts/kyogre-resting-v2.txt"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 416df172-1db1-42ac-b4ed-55237c5f12fd.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "416df172-1db1-42ac-b4ed-55237c5f12fd",
+      "round": "retry-06"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0543f939-007d-4294-9581-ec7e75c20499.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "0543f939-007d-4294-9581-ec7e75c20499",
+      "round": "retry-06"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e4c42d40-29e0-4f5c-af3d-8a72b2869c91.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "e4c42d40-29e0-4f5c-af3d-8a72b2869c91",
+      "round": "retry-06"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 43a57af3-7f49-433a-8fab-e162e815c908.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "43a57af3-7f49-433a-8fab-e162e815c908",
+      "round": "retry-06"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5d2c268e-484d-4dc4-a84f-d0dd9550c5fd.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "5d2c268e-484d-4dc4-a84f-d0dd9550c5fd",
+      "round": "retry-06"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID dda5d5ff-3dfc-431d-b37d-61a451ff37cb.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "dda5d5ff-3dfc-431d-b37d-61a451ff37cb",
+      "round": "retry-06"
+    },
+    {
+      "id": "sobble",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID de0e415a-1a15-4533-91ac-b0cfe57e8b4b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "de0e415a-1a15-4533-91ac-b0cfe57e8b4b",
+      "round": "retry-06"
+    },
+    {
+      "id": "lugia",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 70f160be-9172-45e3-a0fd-fa7e09abbcec.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "70f160be-9172-45e3-a0fd-fa7e09abbcec",
+      "round": "retry-06"
+    },
+    {
+      "id": "squirtle",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e21964e5-efb5-4c13-9df0-55b72eb59641.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "e21964e5-efb5-4c13-9df0-55b72eb59641",
+      "round": "retry-07"
+    },
+    {
+      "id": "blastoise",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 02c8dee9-c1a0-4565-bbaa-e4a3178a0905.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "02c8dee9-c1a0-4565-bbaa-e4a3178a0905",
+      "round": "retry-07"
+    },
+    {
+      "id": "marshtomp",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 45a4ca44-6641-45c3-98f0-5367437284f4.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "45a4ca44-6641-45c3-98f0-5367437284f4",
+      "round": "retry-07"
+    },
+    {
+      "id": "piplup",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7259fd5a-bc95-4141-8f2a-82a3c2f4cc13.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "7259fd5a-bc95-4141-8f2a-82a3c2f4cc13",
+      "round": "retry-07"
+    },
+    {
+      "id": "greninja",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c5a41806-c6c8-4b6d-9311-e93ae4ba15a3.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "c5a41806-c6c8-4b6d-9311-e93ae4ba15a3",
+      "round": "retry-07"
+    },
+    {
+      "id": "popplio",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9fb4f534-debe-4a0b-81d7-d88a5f18457b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "9fb4f534-debe-4a0b-81d7-d88a5f18457b",
+      "round": "retry-07"
+    },
+    {
+      "id": "sobble",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 55795189-bbb0-497a-b457-9521ecb8073c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "55795189-bbb0-497a-b457-9521ecb8073c",
+      "round": "retry-07"
+    },
+    {
+      "id": "samurott",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 4710fc75-4ac8-4e50-b410-da2050b7a532.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "4710fc75-4ac8-4e50-b410-da2050b7a532",
+      "round": "gaze-01"
+    },
+    {
+      "id": "primarina",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID cdfe3a8b-e1a6-4188-aa84-47289eb3a3f9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "cdfe3a8b-e1a6-4188-aa84-47289eb3a3f9",
+      "round": "gaze-01"
+    },
+    {
+      "id": "quaquaval",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5c7bc3f1-551a-4e61-aa20-64656532849d.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "phase": "image_generation",
+      "requestId": "5c7bc3f1-551a-4e61-aa20-64656532849d",
+      "round": "gaze-03"
+    }
+  ],
+  "flipX": [
+    "totodile",
+    "brionne"
+  ],
+  "archiveName": "boss-tribute-modular-v13-partial.zip",
+  "rounds": [
+    {
+      "round": "retry-01",
+      "attempted": 15,
+      "generated": [
+        "totodile"
+      ],
+      "failed": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "mudkip",
+        "marshtomp",
+        "piplup",
+        "empoleon",
+        "greninja",
+        "popplio",
+        "brionne",
+        "sobble",
+        "lugia",
+        "kyogre"
+      ]
+    },
+    {
+      "round": "retry-02",
+      "attempted": 8,
+      "generated": [
+        "mudkip"
+      ],
+      "failed": [
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "marshtomp",
+        "piplup",
+        "empoleon"
+      ]
+    },
+    {
+      "round": "retry-03",
+      "attempted": 13,
+      "generated": [],
+      "failed": [
+        "lugia",
+        "kyogre",
+        "squirtle",
+        "wartortle",
+        "blastoise",
+        "feraligatr",
+        "marshtomp",
+        "piplup",
+        "empoleon",
+        "greninja",
+        "popplio",
+        "brionne",
+        "sobble"
+      ]
+    },
+    {
+      "round": "retry-04",
+      "attempted": 13,
+      "generated": [
+        "kyogre",
+        "wartortle",
+        "feraligatr",
+        "empoleon",
+        "brionne"
+      ],
+      "failed": [
+        "lugia",
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio",
+        "sobble"
+      ]
+    },
+    {
+      "round": "retry-05",
+      "attempted": 7,
+      "generated": [],
+      "failed": [
+        "lugia",
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio"
+      ]
+    },
+    {
+      "round": "retry-06",
+      "attempted": 9,
+      "generated": [
+        "kyogre"
+      ],
+      "failed": [
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio",
+        "sobble",
+        "lugia"
+      ],
+      "edited": [
+        "kyogre"
+      ]
+    },
+    {
+      "round": "retry-07",
+      "attempted": 8,
+      "generated": [
+        "lugia"
+      ],
+      "failed": [
+        "squirtle",
+        "blastoise",
+        "marshtomp",
+        "piplup",
+        "greninja",
+        "popplio",
+        "sobble"
+      ],
+      "edited": []
+    },
+    {
+      "round": "gaze-01",
+      "attempted": 4,
+      "generated": [
+        "quaxly",
+        "froakie"
+      ],
+      "failed": [
+        "samurott",
+        "primarina"
+      ],
+      "edited": [
+        "quaxly",
+        "froakie"
+      ]
+    },
+    {
+      "round": "gaze-02",
+      "attempted": 2,
+      "generated": [
+        "samurott",
+        "primarina"
+      ],
+      "failed": [],
+      "edited": [
+        "samurott",
+        "primarina"
+      ]
+    },
+    {
+      "round": "gaze-03",
+      "attempted": 2,
+      "generated": [
+        "quaxwell"
+      ],
+      "failed": [
+        "quaquaval"
+      ],
+      "edited": [
+        "quaxwell"
+      ]
+    },
+    {
+      "round": "gaze-04",
+      "attempted": 1,
+      "generated": [
+        "quaquaval"
+      ],
+      "failed": [],
+      "edited": [
+        "quaquaval"
+      ]
+    }
+  ],
+  "previewProof": "preview-proof-v13.jpg",
+  "successfulImageCalls": 32,
+  "edits": [
+    {
+      "date": "2026-10-06",
+      "id": "manaphy-phione",
+      "change": "Make only Manaphy look sad and dejected; retain three Phione and net",
+      "previousFile": "bosses/manaphy-phione.png",
+      "previousSource": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-e38802ea-4423-4368-a771-274f9f398d8e.png",
+      "file": "bosses/manaphy-phione-sad-v1.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-5f616fa1-6611-426e-af31-a0e68d0fde6d.png",
+      "promptFile": "prompts/manaphy-phione-sad-v1.txt",
+      "status": "success"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "kyogre",
+      "status": "blocked",
+      "change": "Redraw resting out of water on the plinth, fins hanging over front edge",
+      "attempts": 3,
+      "promptFile": "prompts/kyogre-resting-v2.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "kyogre",
+      "status": "success",
+      "change": "Lowered resting pose, belly on plinth with fins extending over the front; large display size",
+      "previousFile": "bosses/kyogre.png",
+      "file": "bosses/kyogre-resting-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-f7cbc377-3d2f-4691-872d-dd85fcd3d73c.png",
+      "promptFile": "prompts/retry-06/kyogre.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "quaxly",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/quaxly.png",
+      "file": "players/quaxly-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-b1b01217-20e0-4e82-8ac2-9cf61c58a41e.png",
+      "promptFile": "prompts/gaze-01/quaxly.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "froakie",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/froakie.png",
+      "file": "players/froakie-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-2ccda2bb-a837-48cf-afe7-50f2591032b4.png",
+      "promptFile": "prompts/gaze-01/froakie.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "samurott",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/samurott.png",
+      "file": "players/samurott-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-cf3a679d-ac09-4712-b37b-4775c8d3bf13.png",
+      "promptFile": "prompts/gaze-02/samurott.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "primarina",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/primarina.png",
+      "file": "players/primarina-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-64f874d2-0b8e-4300-8795-cfdcfcd44835.png",
+      "promptFile": "prompts/gaze-02/primarina.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "quaxwell",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/quaxwell.png",
+      "file": "players/quaxwell-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-f1fd9859-abd0-41f0-8d71-1762af9b3ee2.png",
+      "promptFile": "prompts/gaze-03/quaxwell.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "id": "quaquaval",
+      "status": "success",
+      "change": "Turn the head and pupils toward the boss at center-right",
+      "previousFile": "players/quaquaval.png",
+      "file": "players/quaquaval-boss-gaze-v2.png",
+      "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-6beb2f35-f923-41dc-9047-b87bfc5f00f3.png",
+      "promptFile": "prompts/gaze-04/quaquaval.txt"
+    }
+  ],
+  "scaleMultipliers": {},
+  "placementOverrides": {
+    "kyogre": {
+      "anchor": [
+        0.53,
+        0.835
+      ],
+      "maxSize": [
+        0.65,
+        0.75
+      ]
+    }
+  },
+  "updatedAt": "2026-10-07",
+  "gazePolicy": {
+    "playerPosition": "left foreground",
+    "target": "captured boss on center-right plinth",
+    "requirement": "Head and pupils should clearly face right toward the boss, with downward inclination for tall characters; avoid eye contact with the camera. Apply to new and retried player cutouts."
+  },
+  "gazeReview": {
+    "date": "2026-10-07",
+    "reviewed": 20,
+    "corrected": [
+      "quaxly",
+      "froakie",
+      "samurott",
+      "primarina",
+      "quaxwell",
+      "quaquaval"
+    ],
+    "proof": "gaze-review-proof-v2.jpg"
+  }
+}

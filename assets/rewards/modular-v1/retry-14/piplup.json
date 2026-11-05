@@ -1,0 +1,10 @@
+{
+  "id": "piplup",
+  "nameKo": "팽도리",
+  "date": "2026-10-08",
+  "promptFile": "prompts/retry-14/piplup.txt",
+  "generationSucceeded": false,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e206e3f2-0884-45b4-ac96-15bfd151164a.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "e206e3f2-0884-45b4-ac96-15bfd151164a"
+}

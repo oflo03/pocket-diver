@@ -1,0 +1,12 @@
+{
+  "id": "empoleon",
+  "nameKo": "엠페르트",
+  "kind": "player",
+  "promptFile": "prompts/retry-03/empoleon.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/empoleon.png"
+  ],
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1624e624-aa55-4dbd-a598-f5b4d8e8b346.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "1624e624-aa55-4dbd-a598-f5b4d8e8b346"
+}

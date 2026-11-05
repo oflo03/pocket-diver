@@ -1,0 +1,66 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>마그마단 소탕전 · 따라와</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#091521;color:white;font:16px system-ui;min-height:100vh;display:grid;place-items:center}main{width:min(94vw,900px)}header,footer{display:flex;align-items:center;gap:10px;padding:10px 0}header b{margin-right:auto}canvas{width:100%;display:block;image-rendering:pixelated}article{background:#172e40;border-left:4px solid #6ddbdc;padding:12px 20px;min-height:76px}strong{color:#91e6df}p{margin:4px 0}button,select{font:inherit;background:#223f50;color:white;padding:4px 8px}small{margin-left:auto}</style>
+<main><header><b>마그마단 소탕전 · 따라와</b><label>플레이어 <select id="species"></select></label></header><canvas id="cv" width="384" height="216"></canvas><article><strong id="speaker"></strong><p id="line"></p></article><footer><button id="prev">이전</button><button id="pause">일시정지</button><button id="next">다음</button><small id="count"></small></footer></main>
+<script>
+const speciesInfo={"blastoise": {"name": "거북왕", "height": 1.6}, "brionne": {"name": "키요공", "height": 0.6}, "croconaw": {"name": "엘리게이", "height": 1.1}, "dewott": {"name": "쌍검자비", "height": 0.8}, "drizzile": {"name": "누겔레온", "height": 0.7}, "empoleon": {"name": "엠페르트", "height": 1.7}, "feraligatr": {"name": "장크로다일", "height": 2.3}, "froakie": {"name": "개구마르", "height": 0.3}, "frogadier": {"name": "개굴반장", "height": 0.6}, "greninja": {"name": "개굴닌자", "height": 1.5}, "inteleon": {"name": "인텔리레온", "height": 1.9}, "marshtomp": {"name": "늪짱이", "height": 0.7}, "mudkip": {"name": "물짱이", "height": 0.4}, "oshawott": {"name": "수댕이", "height": 0.5}, "piplup": {"name": "팽도리", "height": 0.4}, "popplio": {"name": "누리공", "height": 0.4}, "primarina": {"name": "누리레느", "height": 1.8}, "prinplup": {"name": "팽태자", "height": 0.8}, "quaquaval": {"name": "웨이니발", "height": 1.8}, "quaxly": {"name": "꾸왁스", "height": 0.5}, "quaxwell": {"name": "아꾸왁", "height": 1.2}, "samurott": {"name": "대검귀", "height": 1.5}, "sobble": {"name": "울머기", "height": 0.3}, "squirtle": {"name": "꼬부기", "height": 0.5}, "swampert": {"name": "대짱이", "height": 1.5}, "totodile": {"name": "리아코", "height": 0.6}, "wartortle": {"name": "어니부기", "height": 1}};
+const pics=['magma-pixel-v1.png','plates.png'].map(url=>{let i=new Image();i.src=url;return i});
+const ctx=cv.getContext('2d'), q=new URLSearchParams(location.search);
+for(const [k,{name}] of Object.entries(speciesInfo))species.add(new Option(name,k));
+species.value=Object.hasOwn(speciesInfo,q.get('species'))?q.get('species'):'oshawott';
+let hero; function loadHero(){hero=new Image();hero.src='../../../public/sprites/'+species.value+'.png'} species.onchange=loadHero;loadHero();
+const scenes=[
+['연합작전',9,[['아강','아쿠아단 배치 완료. 가이오가는 수로를 맡는다.'],['페르시온','로켓단 배치 완료. 루기아는 상공을 맡는다.'],['주인공','양측 준비 확인. 작전 개시!']]],
+['협공',7,[['페르시온','과장. 루기아를 투입해라.'],['샤프니아','아래쪽이 비었어!'],['주인공','루기아, 그 틈으로!']]],
+['단애의칼',8,[['주인공','대원은 빠졌어. 이제 나만……'],['샤프니아','발밑! 바위 갈라진다!']]],
+['놓지 마',12,[['샤프니아','잡았다!'],['주인공','나 때문에 너까지 가라앉아. 놔!'],['샤프니아','싫어. 같이 올라가.'],['','…']]],
+['구조',8,[['샤크니아','다친 데 없어?'],['주인공','응. 너는?'],['샤크니아','잠깐만. 같이 숨 좀 고르자.']]],
+['특별승진',10,[['아강','그란돈 앞에서 대원을 구하고 반격할 길을 열었다.'],['아강','샤크니아. 오늘부로 본대 작전간부다.'],['샤크니아','나, 발령 두 번은 건너뛴 것 같은데.']]]];
+let s=q.get('scene')==='escape'?4:q.get('scene')==='rescue'?3:0,t=0,play=true,last=0;function jump(i){s=Math.max(0,Math.min(5,i));t=0}
+prev.onclick=()=>jump(s-1);next.onclick=()=>jump((s+1)%6);pause.onclick=()=>{play=!play;pause.textContent=play?'일시정지':'재생'};
+const evolution=new Image();evolution.src='evolution-painted.png';
+const clamp01=n=>Math.min(1,Math.max(0,n));
+function ease(v){v=clamp01(v);return v*v*(3-2*v)}
+function rescuePose(t){
+ const reach=ease(t/2.4),sink=ease((t-2)/4.8),rise=ease((t-8.6)/3.3);
+ const x=211+20*sink-97*rise,y=127+40*sink-58*rise;
+ return {x,y,fx:x-95*(1-reach),fy:y+3-26*(1-reach),phase:ease((t-7.9)/2.25)};
+}
+function frame(now){if(play)t+=Math.min(.1,(now-last)/1000);last=now;if(t>=scenes[s][1])jump((s+1)%6);
+let u=t/scenes[s][1],bg=pics[+(s>=2)],x=s<2?s*768:(s-2)%2*768,y=s<2?0:Math.floor((s-2)/2)*512,h=s<2?338:508;
+ctx.imageSmoothingEnabled=false;ctx.fillStyle='#081421';ctx.fillRect(0,0,384,216);
+ctx.save();ctx.translate(192,108);let z=1.04+u*.032;ctx.scale(z,z);ctx.translate(-192+Math.sin(t*.56)*1.5,-108+Math.cos(t*.52));if(bg.naturalWidth){let sh=Math.min(h,764*216/384),sw=sh*384/216;if(s===3||s===4){ctx.drawImage(bg,1025,90,504,300,0,0,384,216)}else{ctx.drawImage(bg,x+2+(764-sw)/2,y+2+(h-sh)/2,sw,sh,0,0,384,216)}}
+const pose=rescuePose(t);
+if(s===3){
+ const {fx,fy,phase}=pose;
+ if(evolution.naturalWidth){const f=Math.round(32*phase);ctx.drawImage(evolution,f*128,0,128,90,Math.round(fx-64),Math.round(fy-2),128,90)}
+
+}
+// The escape is a two-shot. Both Pokémon use one camera and the same pixels-per-metre.
+const heightRatio=speciesInfo[species.value].height/1.8;
+const sharkHeight=Math.min(105,174/(1+heightRatio));
+const escapeX=182-27*ease(t/3),escapeY=113+(heightRatio-1)*sharkHeight/2-7*Math.sin(Math.PI*ease(t/3));
+if(s===4 && evolution.naturalWidth){
+ const k=sharkHeight/78;
+ ctx.drawImage(evolution,32*128,0,128,90,Math.round(escapeX-64*k),Math.round(escapeY-2*k),Math.round(128*k),Math.round(90*k));
+}
+if(s>=2 && hero.naturalWidth){
+ // Feet are anchored to the ledge, the rescuing fish, or the dock. All species share
+ // the same scene magnification, so their native illustration sizes remain distinct.
+ const fall=clamp01((t-4)/3);
+ const [footX,footY,zoom,maxWidth,maxHeight]=[
+   [241+14*fall,151+44*fall,.86,66,65],
+   [pose.x,pose.y+2,.92,72,70],
+   [escapeX,escapeY+3,1,190,145],
+   [334,190,.78,58,60]
+ ][s-2];
+ const relativeScale=sharkHeight*speciesInfo[species.value].height/(1.8*hero.naturalHeight);
+ const scale=Math.min(s===4?relativeScale:zoom,maxWidth/hero.naturalWidth,maxHeight/hero.naturalHeight);
+ const w=Math.round(hero.naturalWidth*scale), h=Math.round(hero.naturalHeight*scale);
+ ctx.drawImage(hero,Math.round(footX-w/2),Math.round(footY-h),w,h);
+}
+ctx.restore();
+if(s<5){ctx.fillStyle='rgba(169,232,249,.50)';for(let j=0;j<19;j++){let xx=(j*71+t*(s===4?27:9))%390,yy=213-((j*19+t*(s===4?17:5))%61);ctx.fillRect(Math.floor(xx),Math.floor(yy),j%4===0?3:1,1)}}
+
+let lines=scenes[s][2],[who,what]=lines[Math.min(lines.length-1,Math.floor(u*lines.length))];speaker.textContent=who==='주인공'?speciesInfo[species.value].name:who;line.textContent=what;count.textContent=(s+1)+' / 6 · '+scenes[s][0];requestAnimationFrame(frame)}
+requestAnimationFrame(frame)
+</script></html>

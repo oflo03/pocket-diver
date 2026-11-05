@@ -1,0 +1,12 @@
+{
+  "id": "mudkip",
+  "nameKo": "물짱이",
+  "kind": "player",
+  "promptFile": "prompts/retry-02/mudkip.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/mudkip.png"
+  ],
+  "status": "generated",
+  "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-7ce9d90a-c89f-4a74-85be-42a0c023eb5c.png",
+  "file": "players/mudkip.png"
+}

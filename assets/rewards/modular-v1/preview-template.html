@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>로켓단 해양수산부 · 헌상 장면 미리보기</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,"Malgun Gothic",sans-serif;background:#09111c;color:#e5edf5}
+*{box-sizing:border-box}body{margin:0;padding:24px;max-width:1600px;margin-inline:auto}
+h1{font-size:24px;margin:0 0 8px}p{color:#aebdce;font-size:14px;line-height:1.6}
+.controls{display:flex;gap:16px;align-items:end;flex-wrap:wrap;margin:20px 0}
+label{display:grid;gap:8px;font-size:13px}select{background:#152234;color:#f3f5f8;border:1px solid #455770;border-radius:6px;padding:10px 12px;min-width:210px;font:inherit}
+a{color:#9fccf8}.scene{position:relative;width:100%;overflow:hidden;background:#0b1421;isolation:isolate;border:1px solid #41516a}
+.bg{display:block;width:100%;height:100%}.layer{position:absolute;pointer-events:none}.layer img{position:absolute;max-width:none}
+.caption{display:flex;gap:16px;justify-content:space-between;margin-top:10px;flex-wrap:wrap}
+.badge{color:#f1bf69}details{margin:24px 0;padding:14px 18px;background:#101d2c;border:1px solid #30425b}
+summary{cursor:pointer}ul{padding-left:22px;line-height:1.9;font-size:14px}
+</style>
+<h1>보스 헌상 장면</h1>
+<p id="counts"></p>
+<div class="controls">
+<label>플레이어<select id="players"></select></label>
+<label>보스<select id="bosses"></select></label>
+<span class="badge">제작 진행본 · 미완성 항목은 선택할 수 없습니다</span>
+</div>
+<div class="scene" id="scene">
+<img class="bg" id="background" alt="고정된 해상기지 배경과 비주기">
+<div id="bossLayer" class="layer"></div><div id="playerLayer" class="layer"></div>
+</div>
+<div class="caption"><span id="selection"></span><span><a id="playerFile" download>플레이어 PNG</a> · <a id="bossFile" download>보스 PNG</a> · <a href="background-giovanni.png" download>고정 배경 PNG</a></span></div>
+<details><summary>미완성 목록과 제작 기록</summary><ul id="missing"></ul>
+<p>반복된 이미지 생성 차단으로 아직 전체 세트가 완성되지 않았습니다. <a href="README.md">사용 안내</a> · <a href="manifest.json">배치 정보</a> · <a href="failure-requests.csv">실패 요청 ID</a> · <a href="generation-status-final.json">최종 상태</a></p>
+</details>
+<script>
+const pack=__MANIFEST__;
+const $=id=>document.getElementById(id);
+const players=pack.assets.filter(a=>a.kind==='player').sort((a,b)=>a.index-b.index),bosses=pack.assets.filter(a=>a.kind==='boss');
+$('counts').textContent='고정 배경 1장 · 플레이어 '+players.length+'/27종 · 보스 '+bosses.length+'/3묶음. 배경과 비주기는 그대로 두고 캐릭터를 교체합니다.';
+$('scene').style.aspectRatio=pack.canvas.width+'/'+pack.canvas.height;$('background').src=pack.fixed.file;
+for(const [id,kind,items] of [['players','player',players],['bosses','boss',bosses]]){
+ for(const a of items){const o=new Option(a.nameKo,a.id);$(id).add(o);}
+ for(const a of pack.missing.filter(a=>a.kind===kind)){const o=new Option(a.nameKo+' · 미완성',a.id);o.disabled=true;$(id).add(o);}
+}
+$('players').value=players.some(a=>a.id==='dewott')?'dewott':players[0]?.id||'';
+function showLayer(containerId,asset){
+ const node=$(containerId);node.replaceChildren();if(!asset)return;
+ const {meta:m,placement:p}=asset;const [l,t,r,b]=m.bbox,bw=r-l,bh=b-t;
+ Object.assign(node.style,{left:100*p.left/pack.canvas.width+'%',top:100*p.top/pack.canvas.height+'%',width:100*p.width/pack.canvas.width+'%',height:100*p.height/pack.canvas.height+'%',transform:p.flipX?'scaleX(-1)':'none'});
+ const im=document.createElement('img');im.alt=asset.nameKo;im.src=asset.file;
+ Object.assign(im.style,{width:100*m.width/bw+'%',height:100*m.height/bh+'%',left:-100*l/bw+'%',top:-100*t/bh+'%'});
+ node.append(im);
+}
+function render(){
+ const p=players.find(a=>a.id===$('players').value),b=bosses.find(a=>a.id===$('bosses').value);
+ showLayer('playerLayer',p);showLayer('bossLayer',b);$('selection').textContent=[p?.nameKo,b?.nameKo].filter(Boolean).join(' + ');
+ $('playerFile').href=p?.file||'#';$('bossFile').href=b?.file||'#';
+}
+$('players').addEventListener('change',render);$('bosses').addEventListener('change',render);
+for(const a of pack.missing){const li=document.createElement('li');li.textContent=a.nameKo;$('missing').append(li);}
+render();
+</script></html>

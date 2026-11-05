@@ -1,0 +1,21 @@
+Tool: built-in image_gen
+Date: 2026-10-05 (Asia/Seoul)
+Source: team-rocket-marine-division-logo-ko-v1.png
+Output: team-rocket-marine-division-logo-ko-v2.png
+
+Refine the attached KOREAN-ONLY pixel-art logo to fix its unbalanced empty lower area. Preserve the approved marine Team Rocket identity, colors, recognizable red R/navy anchor emblem, Korean lettering style, and exact title:
+"로켓단 해양 수산부"
+
+The current design still looks as though an English subtitle has been deleted and a long decorative strip is filling its place. Recompose the typography and silhouette so the Korean-only logo feels designed as a complete compact unit.
+
+Specific layout change:
+- Keep the emblem on the left and the Korean title on the right in ONE horizontal row.
+- Make the Korean lettering visibly larger and fuller relative to the emblem. Redraw the glyphs proportionally at the larger size, preserving their chunky recognizable shapes, rather than stretching them unnaturally.
+- Reduce the relative height of the anchor emblem moderately so that the large Korean text block occupies about 70–80% of the emblem's overall height. Center the title vertically alongside the emblem.
+- REMOVE the separate long scalloped wave underline and its long navy boxed support strip below the title.
+- Integrate only a shallow compact turquoise wave lip into the title's lower outline, hugging the bottoms of the letters with no empty ribbon, gap, or reserved subtitle area. The big curled waves at the base of the LEFT anchor remain.
+- Bring the emblem and wordmark into one closely fitted composition. The lower outline of the wordmark should feel finished immediately beneath the glyphs, rather than sitting above an unused banner.
+- Preserve small but readable word spacing between 로켓단 / 해양 / 수산부.
+- Use transparent padding around the OUTSIDE of the finished logo, but no conspicuous hollow region INSIDE the lockup.
+
+Keep 로켓단 crimson, 해양 수산부 ivory and aqua, thick navy outlines and warm ivory outer pixel border. Maintain the original crisp 16-bit pixel-art styling, dimensional stepped pixel highlights and limited palette. Clean the edge pixels. Do not add any English words, subtitles, slogans, filler text, dates, new symbols or extra props. One Korean logo only, actual transparent background, no backdrop, no mockup, all edges uncropped.

@@ -1,0 +1,1115 @@
+{
+  "version": 1,
+  "status": "partial",
+  "generator": "built-in image_gen",
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "fixed": {
+    "file": "background-giovanni.png",
+    "meta": {
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "17d05713bbc5f80f11e6afbc57d88a468abc8eafd62ca650282832477daed41d",
+      "alphaRange": null,
+      "bbox": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    }
+  },
+  "drawOrder": [
+    "fixed",
+    "boss",
+    "player"
+  ],
+  "bboxAlphaThreshold": 96,
+  "assets": [
+    {
+      "id": "dewott",
+      "nameKo": "쌍검자비",
+      "kind": "player",
+      "file": "players/dewott.png",
+      "promptFile": "prompts/dewott.txt",
+      "stage": 2,
+      "index": 2,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "c9213b02bff724c297adae41393b0d2f0c2e40f332a38961a3eb16198ff4387a",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          151,
+          13,
+          1086,
+          1241
+        ],
+        "transparentPixelCount": 1002570
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 195.32472941176457,
+        "width": 523.336,
+        "height": 687.3332705882353,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5597176470588235,
+        "flipX": false
+      }
+    },
+    {
+      "id": "samurott",
+      "nameKo": "대검귀",
+      "kind": "player",
+      "file": "players/samurott-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-02/samurott.txt",
+      "stage": 3,
+      "index": 3,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "f9e2ffaaad9e4b0769ea0fec763bb6006e05459df60b992b353a821df177ebed",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          12,
+          167,
+          1243,
+          1203
+        ],
+        "transparentPixelCount": 909735
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 442.2225036555645,
+        "width": 523.336,
+        "height": 440.4354963444354,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4251307879772543,
+        "flipX": false
+      }
+    },
+    {
+      "id": "oshawott",
+      "nameKo": "수댕이",
+      "kind": "player",
+      "file": "players/oshawott.png",
+      "promptFile": "prompts/oshawott.txt",
+      "stage": 1,
+      "index": 1,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "5f570e31cc14f4f46473f23f56e8057c34dbcc5ced32b9572b740b3786076761",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          149,
+          88,
+          1101,
+          1188
+        ],
+        "transparentPixelCount": 893350
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 277.96304201680664,
+        "width": 523.336,
+        "height": 604.6949579831933,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5497226890756303,
+        "flipX": false
+      }
+    },
+    {
+      "id": "manaphy-phione",
+      "nameKo": "마나피와 피오네 3마리",
+      "kind": "boss",
+      "file": "bosses/manaphy-phione-sad-v1.png",
+      "promptFile": "prompts/manaphy-phione-sad-v1.txt",
+      "meta": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGBA",
+        "sha256": "9f1d49165ddd8fc041ef5b63e186ac763bbb1a4c50c755ae283b66d81f0571fd",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          146,
+          116,
+          1595,
+          866
+        ],
+        "transparentPixelCount": 896910
+      },
+      "placement": {
+        "left": 538.384,
+        "top": 319.385436853002,
+        "width": 695.552,
+        "height": 360.01656314699795,
+        "anchor": [
+          886.1600000000001,
+          679.4019999999999
+        ],
+        "scale": 0.48002208419599723,
+        "flipX": false
+      }
+    },
+    {
+      "id": "prinplup",
+      "nameKo": "팽태자",
+      "kind": "player",
+      "file": "players/prinplup.png",
+      "promptFile": "prompts/prinplup.txt",
+      "stage": 2,
+      "index": 14,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "7df25d740ac48db95e325a3795a987c53af4b05f58b6283ec19fe1ae4acb7b1d",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          160,
+          15,
+          1125,
+          1239
+        ],
+        "transparentPixelCount": 940896
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 218.8618715025906,
+        "width": 523.336,
+        "height": 663.7961284974093,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5423170984455958,
+        "flipX": false
+      }
+    },
+    {
+      "id": "froakie",
+      "nameKo": "개구마르",
+      "kind": "player",
+      "file": "players/froakie-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-01/froakie.txt",
+      "stage": 1,
+      "index": 16,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "d89f0f1fb892bd3c64d2faacda487e02d6fb73b981508f101c65e3757eb8060d",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          157,
+          161,
+          1065,
+          1176
+        ],
+        "transparentPixelCount": 951018
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 297.6513480176211,
+        "width": 523.336,
+        "height": 585.0066519823788,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5763612334801762,
+        "flipX": false
+      }
+    },
+    {
+      "id": "frogadier",
+      "nameKo": "개굴반장",
+      "kind": "player",
+      "file": "players/frogadier.png",
+      "promptFile": "prompts/frogadier.txt",
+      "stage": 2,
+      "index": 17,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "c0178619a12d9cf932be47af16d6d18e69922920c1387d7e544a422d63c5822c",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          76,
+          84,
+          1178,
+          1182
+        ],
+        "transparentPixelCount": 1007382
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 361.2215862068965,
+        "width": 523.336,
+        "height": 521.4364137931034,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4748965517241379,
+        "flipX": false
+      }
+    },
+    {
+      "id": "primarina",
+      "nameKo": "누리레느",
+      "kind": "player",
+      "file": "players/primarina-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-02/primarina.txt",
+      "stage": 3,
+      "index": 21,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "359c9b880923e1b1f8d15894baa01e9378f1cd3b71504de51d2d5eddcc21e1e6",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          49,
+          13,
+          1227,
+          1244
+        ],
+        "transparentPixelCount": 605887
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 335.7763225806451,
+        "width": 523.336,
+        "height": 546.8816774193548,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.44425806451612904,
+        "flipX": false
+      }
+    },
+    {
+      "id": "drizzile",
+      "nameKo": "누겔레온",
+      "kind": "player",
+      "file": "players/drizzile.png",
+      "promptFile": "prompts/drizzile.txt",
+      "stage": 2,
+      "index": 23,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "d202d1efc072136c64f614d3571564d94306dc78b63d1b8bc504956e0ef1a1dd",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          224,
+          21,
+          1041,
+          1233
+        ],
+        "transparentPixelCount": 1083637
+      },
+      "placement": {
+        "left": 23.135039603960422,
+        "top": 147.6579999999999,
+        "width": 495.4579207920792,
+        "height": 735.0,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.6064356435643564,
+        "flipX": false
+      }
+    },
+    {
+      "id": "inteleon",
+      "nameKo": "인텔리레온",
+      "kind": "player",
+      "file": "players/inteleon.png",
+      "promptFile": "prompts/inteleon.txt",
+      "stage": 3,
+      "index": 24,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "6bdcc764528afce2c69f7327660777f9f1a378a6a3f09983370149919a1b55e1",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          264,
+          4,
+          929,
+          1250
+        ],
+        "transparentPixelCount": 1272013
+      },
+      "placement": {
+        "left": 57.3808539325843,
+        "top": 82.6579999999999,
+        "width": 426.96629213483146,
+        "height": 800.0,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.6420545746388443,
+        "flipX": false
+      }
+    },
+    {
+      "id": "quaxly",
+      "nameKo": "꾸왁스",
+      "kind": "player",
+      "file": "players/quaxly-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-01/quaxly.txt",
+      "stage": 1,
+      "index": 25,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "9a80e8927a89bde3289b96ac0f6f19403e3055dc5bdd00e9a2d82a5188e26be3",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          204,
+          72,
+          1040,
+          1201
+        ],
+        "transparentPixelCount": 976410
+      },
+      "placement": {
+        "left": 45.01811868910545,
+        "top": 272.6579999999999,
+        "width": 451.69176262178917,
+        "height": 610.0,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5403011514614703,
+        "flipX": false
+      }
+    },
+    {
+      "id": "quaquaval",
+      "nameKo": "웨이니발",
+      "kind": "player",
+      "file": "players/quaquaval-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-04/quaquaval.txt",
+      "stage": 3,
+      "index": 27,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "e0c97b86762e06ecba8a1646730c2917bdeb1b6f77d26728cbbabfbd1f232d0c",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          87,
+          14,
+          1187,
+          1244
+        ],
+        "transparentPixelCount": 810200
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 297.4731999999999,
+        "width": 523.336,
+        "height": 585.1848,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.47576,
+        "flipX": false
+      }
+    },
+    {
+      "id": "croconaw",
+      "nameKo": "엘리게이",
+      "kind": "player",
+      "file": "players/croconaw.png",
+      "promptFile": "prompts/croconaw.txt",
+      "stage": 2,
+      "index": 8,
+      "meta": {
+        "width": 1176,
+        "height": 1337,
+        "mode": "RGBA",
+        "sha256": "e04babf0f6e13f147419793fea111fe3a626c06ef6526014a534bb4922c716d5",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          42,
+          9,
+          1157,
+          1329
+        ],
+        "transparentPixelCount": 770996
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 263.10327354260073,
+        "width": 523.336,
+        "height": 619.5547264573992,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4693596412556054,
+        "flipX": false
+      }
+    },
+    {
+      "id": "swampert",
+      "nameKo": "대짱이",
+      "kind": "player",
+      "file": "players/swampert.png",
+      "promptFile": "prompts/swampert.txt",
+      "stage": 3,
+      "index": 12,
+      "meta": {
+        "width": 1366,
+        "height": 1152,
+        "mode": "RGBA",
+        "sha256": "bba5dd74b525577af1ec9fc0236f0d1ad95a3dff67447c38ba4d5366a8e219b6",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          34,
+          53,
+          1345,
+          1113
+        ],
+        "transparentPixelCount": 667557
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 459.51828985507234,
+        "width": 523.336,
+        "height": 423.13971014492756,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.39918840579710146,
+        "flipX": false
+      }
+    },
+    {
+      "id": "quaxwell",
+      "nameKo": "아꾸왁",
+      "kind": "player",
+      "file": "players/quaxwell-boss-gaze-v2.png",
+      "promptFile": "prompts/gaze-03/quaxwell.txt",
+      "stage": 2,
+      "index": 26,
+      "meta": {
+        "width": 1053,
+        "height": 1494,
+        "mode": "RGBA",
+        "sha256": "7ac42eefa8ca1c25177b4a497abd9317dcb4cc659a152079127a9a6dc7b18b96",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          18,
+          10,
+          1045,
+          1476
+        ],
+        "transparentPixelCount": 873461
+      },
+      "placement": {
+        "left": 13.413454297407952,
+        "top": 147.6579999999999,
+        "width": 514.9010914051842,
+        "height": 735.0,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5013642564802183,
+        "flipX": false
+      }
+    },
+    {
+      "id": "totodile",
+      "nameKo": "리아코",
+      "kind": "player",
+      "file": "players/totodile.png",
+      "promptFile": "prompts/retry-01/totodile.txt",
+      "stage": 1,
+      "index": 7,
+      "meta": {
+        "width": 1271,
+        "height": 1237,
+        "mode": "RGBA",
+        "sha256": "b6df4236637bf0a5ad8f778a80af7fea3885cf4837fbccb2dd2f049210a1501b",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          103,
+          113,
+          1204,
+          1193
+        ],
+        "transparentPixelCount": 899709
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 369.30388555858303,
+        "width": 523.336,
+        "height": 513.3541144414169,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4753278837420527,
+        "flipX": true
+      }
+    },
+    {
+      "id": "mudkip",
+      "nameKo": "물짱이",
+      "kind": "player",
+      "file": "players/mudkip.png",
+      "promptFile": "prompts/retry-02/mudkip.txt",
+      "stage": 1,
+      "index": 10,
+      "meta": {
+        "width": 1312,
+        "height": 1199,
+        "mode": "RGBA",
+        "sha256": "523cb2476c6c9d057e72c5bf4a8e5dec400f23bc95ea3b6a7d503a2109975dbd",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          126,
+          48,
+          1228,
+          1150
+        ],
+        "transparentPixelCount": 938794
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 359.3219999999999,
+        "width": 523.336,
+        "height": 523.336,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4748965517241379,
+        "flipX": false
+      }
+    },
+    {
+      "id": "kyogre",
+      "nameKo": "가이오가",
+      "kind": "boss",
+      "file": "bosses/kyogre-resting-v2.png",
+      "promptFile": "prompts/retry-06/kyogre.txt",
+      "meta": {
+        "width": 1607,
+        "height": 979,
+        "mode": "RGBA",
+        "sha256": "1613e19f2abdf371aea994aed0b3c0dae607e3d7ba0b05ee684352c4b51a55d7",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          37,
+          178,
+          1588,
+          956
+        ],
+        "transparentPixelCount": 917022
+      },
+      "placement": {
+        "left": 342.7600000000001,
+        "top": 240.58322695035463,
+        "width": 1086.8,
+        "height": 545.1517730496454,
+        "anchor": [
+          886.1600000000001,
+          785.735
+        ],
+        "scale": 0.700709219858156,
+        "flipX": false
+      }
+    },
+    {
+      "id": "wartortle",
+      "nameKo": "어니부기",
+      "kind": "player",
+      "file": "players/wartortle.png",
+      "promptFile": "prompts/retry-04/wartortle.txt",
+      "stage": 2,
+      "index": 5,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "369b89e8681a854fd48a6a0cdc58a0ea32f07c49ac5e749a6b312e966c1a783a",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          70,
+          25,
+          1187,
+          1241
+        ],
+        "transparentPixelCount": 726203
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 312.938594449418,
+        "width": 523.336,
+        "height": 569.7194055505819,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4685192479856759,
+        "flipX": false
+      }
+    },
+    {
+      "id": "feraligatr",
+      "nameKo": "장크로다일",
+      "kind": "player",
+      "file": "players/feraligatr.png",
+      "promptFile": "prompts/retry-04/feraligatr.txt",
+      "stage": 3,
+      "index": 9,
+      "meta": {
+        "width": 1294,
+        "height": 1216,
+        "mode": "RGBA",
+        "sha256": "1e4b86b54ba279e3781725c62bd764565219c38059b5cc611f731ad4a1cb22e7",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          41,
+          5,
+          1263,
+          1209
+        ],
+        "transparentPixelCount": 779635
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 367.0307135842879,
+        "width": 523.336,
+        "height": 515.627286415712,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.42826186579378067,
+        "flipX": false
+      }
+    },
+    {
+      "id": "empoleon",
+      "nameKo": "엠페르트",
+      "kind": "player",
+      "file": "players/empoleon.png",
+      "promptFile": "prompts/retry-04/empoleon.txt",
+      "stage": 3,
+      "index": 15,
+      "meta": {
+        "width": 1187,
+        "height": 1325,
+        "mode": "RGBA",
+        "sha256": "a862f7016b7d851e79eda5da05ab08c76ab7df365553f6797dc21947d5895d07",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          54,
+          0,
+          1146,
+          1309
+        ],
+        "transparentPixelCount": 886390
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 255.32574358974352,
+        "width": 523.336,
+        "height": 627.3322564102564,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.47924542124542124,
+        "flipX": false
+      }
+    },
+    {
+      "id": "brionne",
+      "nameKo": "키요공",
+      "kind": "player",
+      "file": "players/brionne.png",
+      "promptFile": "prompts/retry-04/brionne.txt",
+      "stage": 2,
+      "index": 20,
+      "meta": {
+        "width": 1315,
+        "height": 1196,
+        "mode": "RGBA",
+        "sha256": "5e0591b81faa8fc963983962cbe6d970a93ebf4cdd02667415d24478634384f0",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          72,
+          0,
+          1301,
+          1192
+        ],
+        "transparentPixelCount": 954130
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 375.077436940602,
+        "width": 523.336,
+        "height": 507.5805630593979,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4258226200162734,
+        "flipX": true
+      }
+    },
+    {
+      "id": "lugia",
+      "nameKo": "루기아",
+      "kind": "boss",
+      "file": "bosses/lugia-tired-v2.png",
+      "promptFile": "prompts/lugia-tired-v2.txt",
+      "meta": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "sha256": "70720d36ebb9eb249f9b63e72c292245a42776bd386432d374ca800053321dd9",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "bbox": [
+          39,
+          244,
+          1518,
+          980
+        ],
+        "transparentPixelCount": 840624
+      },
+      "placement": {
+        "left": 367.84000000000003,
+        "top": 243.52017106152812,
+        "width": 1036.64,
+        "height": 515.8668289384719,
+        "anchor": [
+          886.1600000000001,
+          759.3870000000001
+        ],
+        "scale": 0.7009060175794456,
+        "flipX": false
+      }
+    },
+    {
+      "id": "sobble",
+      "nameKo": "울머기",
+      "kind": "player",
+      "file": "players/sobble-boss-gaze-v1.png",
+      "promptFile": "prompts/retry-08/sobble.txt",
+      "stage": 1,
+      "index": 22,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "eb42224a1fc7f34de22bd4199ce8a608f164677f968288d7127578866562f781",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          226,
+          46,
+          962,
+          1228
+        ],
+        "transparentPixelCount": 1103119
+      },
+      "placement": {
+        "left": 80.94860236886635,
+        "top": 272.6579999999999,
+        "width": 379.8307952622674,
+        "height": 610.0,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5160744500846024,
+        "flipX": false
+      }
+    },
+    {
+      "id": "squirtle",
+      "nameKo": "꼬부기",
+      "kind": "player",
+      "file": "players/squirtle-boss-gaze-v1.png",
+      "promptFile": "prompts/retry-10/squirtle.txt",
+      "stage": 1,
+      "index": 4,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "16606475a638e3ca69cb736d456187b13b5cfcc56ecea6a09499a8776acff7f7",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          74,
+          178,
+          1125,
+          1198
+        ],
+        "transparentPixelCount": 971477
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 374.7581712654613,
+        "width": 523.336,
+        "height": 507.8998287345386,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4979410085632731,
+        "flipX": false
+      }
+    },
+    {
+      "id": "greninja",
+      "nameKo": "개굴닌자",
+      "kind": "player",
+      "file": "players/greninja-boss-gaze-v1.png",
+      "promptFile": "prompts/retry-12/greninja.txt",
+      "stage": 3,
+      "index": 18,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "24b760c5cef92dfd93a83f2b7df265db373119d7c47b1c4803783846e6fa4a95",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          84,
+          15,
+          1013,
+          1235
+        ],
+        "transparentPixelCount": 1045823
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 195.3922088266952,
+        "width": 523.336,
+        "height": 687.2657911733047,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5633326157158235,
+        "flipX": false
+      }
+    },
+    {
+      "id": "marshtomp",
+      "nameKo": "늪짱이",
+      "kind": "player",
+      "file": "players/marshtomp-boss-gaze-v1.png",
+      "promptFile": "prompts/retry-13/marshtomp.txt",
+      "stage": 2,
+      "index": 11,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "a5d463a1cb4825c4acfcdf3f40621d122906e8972d2d081d5cddebf374f7eb0e",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          104,
+          37,
+          1060,
+          1217
+        ],
+        "transparentPixelCount": 943129
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 236.69933891213373,
+        "width": 523.336,
+        "height": 645.9586610878662,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.5474225941422595,
+        "flipX": false
+      }
+    },
+    {
+      "id": "blastoise",
+      "nameKo": "거북왕",
+      "kind": "player",
+      "file": "players/blastoise-boss-gaze-v1.png",
+      "promptFile": "prompts/retry-17/blastoise.txt",
+      "stage": 3,
+      "index": 6,
+      "meta": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "sha256": "fd3061a69e09669b2a0372b6a4c2cd4d3177d22b89222765997194f21bed23af",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "bbox": [
+          25,
+          84,
+          1108,
+          1213
+        ],
+        "transparentPixelCount": 706426
+      },
+      "placement": {
+        "left": 9.196000000000026,
+        "top": 337.0935087719297,
+        "width": 523.336,
+        "height": 545.5644912280702,
+        "anchor": [
+          270.86400000000003,
+          882.6579999999999
+        ],
+        "scale": 0.4832280701754386,
+        "flipX": false
+      }
+    }
+  ],
+  "missing": [
+    {
+      "id": "piplup",
+      "nameKo": "팽도리",
+      "kind": "player"
+    },
+    {
+      "id": "popplio",
+      "nameKo": "누리공",
+      "kind": "player"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "empoleon",
+      "type": "silhouette_near_canvas_edge",
+      "note": "Inspect appendage tips before animation or stricter production use."
+    },
+    {
+      "id": "brionne",
+      "type": "silhouette_near_canvas_edge",
+      "note": "Inspect appendage tips before animation or stricter production use."
+    }
+  ]
+}

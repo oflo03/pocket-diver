@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@2/dist/galmuri.css" />
+    <title>로켓단 해양수산부</title>
+    <!-- link previews (KakaoTalk, Discord, X...): the title, a line about the game, and the logo over the sea (1200x630) -->
+    <meta name="description" content="로켓단 신입사원이 되어 바닷속 포켓몬을 잡고, 보물을 모아 보스를 바치는 잠수 탐험 게임" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pocket-diver.web.app/" />
+    <meta property="og:title" content="로켓단 해양수산부" />
+    <meta property="og:description" content="로켓단 신입사원이 되어 바닷속 포켓몬을 잡고, 보물을 모아 보스를 바치는 잠수 탐험 게임" />
+    <meta property="og:image" content="https://pocket-diver.web.app/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- a big red R over waves, drawn at 32 dots (larger sizes are it scaled up without smoothing) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <body>
+    <canvas id="game" width="320" height="180"></canvas>
+    <div id="hud"></div>
+    <div id="toasts"></div>
+    <div id="menu" class="hidden"></div>
+    <div id="tribute" class="hidden"></div>
+    <div id="dialog" class="hidden"></div>
+    <div id="title" class="hidden"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

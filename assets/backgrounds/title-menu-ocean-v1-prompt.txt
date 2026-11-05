@@ -1,0 +1,27 @@
+Tool: built-in image_gen
+Date: 2026-10-05 (Asia/Seoul)
+Output: title-menu-ocean-v1.png
+Purpose: shared title and main-menu background, separate logo and UI overlays.
+
+Create a finished 16:9 LANDSCAPE PIXEL-ART BACKGROUND for the title screen and main menu of "Team Rocket Marine Division", a personal Pokémon-world underwater exploration game. Background environment ONLY, full bleed. This should feel like an inviting mysterious ocean adventure, with the visual richness of a carefully handcrafted 16-bit/32-bit underwater game. A complete scene, not a UI mockup.
+
+ART DIRECTION:
+Side-on underwater view across a vast blue marine canyon. We are completely underwater, looking slightly upward toward the distant rippling water surface along the top edge, while the seabed and near rock ledges frame the bottom corners. Deep ultramarine and midnight navy in the foreground, teal middle-distance water, luminous pale cyan surface light. Warm amber portholes and very small crimson accents provide restrained contrast. Strong spatial depth through multiple crisp pixel-art layers: dark foreground vegetation and rocks, detailed middle-ground marine structures, faint far reefs and cliffs disappearing into the blue.
+
+COMPOSITION FOR REAL MENU USE:
+Keep the middle 55–60% of the canvas width and approximately 18–78% of its height as low-contrast open blue water suitable for a separate title logo above a centered vertical menu. This area must still feel naturally connected to the ocean, with subtle large depth-color bands and faint distant contours, rather than a blank rectangle. No prominent animals, bright highlights, machinery, rock edges or high-frequency texture across the central menu zone.
+Concentrate the beautiful environmental storytelling on the sides and bottom. The image should work beautifully as scenery before the UI is added. Do not bake text or interface elements into the scene.
+
+LEFT LOWER THIRD:
+A small covert Team Rocket marine research/salvage outpost anchored into a rocky reef, dark steel modules, a rounded pressure hatch, a few warm amber circular windows, pipes, mooring cables, secured cargo crates and a rolled-up empty fishing net. One small crimson R insignia painted on a side panel. The outpost is a believable modest underwater base, not a huge sci-fi city. A compact docked submersible partly sheltered under the rock ledge. All this stays to the left of the central clear area.
+
+RIGHT LOWER THIRD:
+An old half-buried wooden fishing vessel resting at an angle behind a reef ledge, broken rail and a short mast, sea grass growing around its hull, small salvaged metal containers tucked beside it. Teal branching corals and a few muted coral-orange sponges, carefully drawn as clustered shapes. On the far right, a dark foreground rock edge and swaying kelp frame the view. Keep the ship silhouette peripheral and atmospheric.
+
+TOP AND DISTANCE:
+Beautiful understated pale-cyan surface ripples, broad sun shafts angled down near the side edges, subtle pixel caustics on the side rocks. A few tiny distant shoals at the outer upper corners. Vast layered underwater cliffs and a winding deep trench continue into the background, suggesting many areas to explore. No huge central creature or central glow. Calm underwater anticipation, a little secretive and mischievous, not frightening or ruined-world gloom.
+
+PIXEL CRAFT:
+Authentic coherent pixel illustration, clearly intentional square pixel clusters, crisp stair-stepped silhouettes, consistent pixel scale, selective small dithering and limited cel-shaded palette. Enough detail for a high-quality game title background but no indiscriminate pixel noise. Draw at a clean game-background pixel-art scale and present sharply enlarged with nearest-neighbor appearance. No painterly brushstrokes, smooth 3D renders, vector style, antialiasing haze, photorealistic gradients or blur.
+
+One complete wide image, exact 16:9 composition, opaque background. No title lettering, no Korean or English words, no subtitles, no buttons, no menus, no HUD, no frame, no watermark, no checkerboard, no transparent gaps. The tiny in-world red R on the left base is the only permitted symbol.

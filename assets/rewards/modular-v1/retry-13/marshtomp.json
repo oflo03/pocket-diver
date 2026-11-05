@@ -1,0 +1,10 @@
+{
+  "id": "marshtomp",
+  "nameKo": "늪짱이",
+  "date": "2026-10-08",
+  "promptFile": "prompts/retry-13/marshtomp.txt",
+  "generationSucceeded": true,
+  "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-93a7f620-be6f-4f46-8557-3fe6c131fee7.png",
+  "file": "players/marshtomp-boss-gaze-v1.png",
+  "status": "generated"
+}

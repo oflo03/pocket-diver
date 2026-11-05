@@ -1,0 +1,8 @@
+Use case: stylized-concept. Draw exactly one Popplio, the Pokémon, as a full-body detailed pixel-art game character cutout. Preserve the standard original species design, anatomy, colors and proportions. Small dark blue sea lion with round pink nose, big eyes, pale blue ruffled collar, large front flippers and split tail flippers. Seated upright natural sea-lion pose, cheerful; flippers remain flippers, no hands.
+Pose and gaze: the character will stand at the LEFT foreground of a reward scene and look at the boss to its RIGHT. Turn the body three-quarter toward screen-right, with the head and muzzle in a clear right-facing profile, visible eye and pupils directed to the right; no eye contact with the viewer. Relaxed attentive pose. Do not draw the boss.
+Style: crisp stepped dark pixel outlines, cohesive shaded pixel clusters, cool upper-left light and subtle warm fill, polished retro RPG sprite illustration. Entire silhouette including tail, toes and head fits within the square canvas, generous clear margins. Genuine transparent alpha background, fully opaque character, clean contour, no outer glow, haze or ground shadow. No text, border, scenery, additional characters, clothes or extra props.
+
+
+
+
+

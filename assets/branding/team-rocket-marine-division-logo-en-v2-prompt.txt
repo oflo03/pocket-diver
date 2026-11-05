@@ -1,0 +1,23 @@
+Tool: built-in image_gen
+Date: 2026-10-05 (Asia/Seoul)
+Reference: team-rocket-marine-division-logo-ko-v3.png
+Output: team-rocket-marine-division-logo-en-v2.png
+
+Create the matching ENGLISH-ONLY language edition of the attached Korean pixel-art game logo. Faithfully preserve the latest compact two-line composition and its visual identity. This is a localization edit, not a new brand.
+
+Keep the left emblem essentially unchanged: crimson R over a navy anchor, compact top ring and crossbar, paired turquoise wave curls at the base, ivory outer pixel border. Preserve its proportions, colors and pixel detail.
+
+Replace ALL Korean text to the right with these EXACT two English lines:
+Team Rocket
+Marine Division
+
+Top line "Team Rocket": crimson red, a slightly smaller organizational heading, with the reference's dimensional pixel highlights.
+Bottom line "Marine Division": the main title, warm ivory upper faces and aqua/turquoise lower faces, with the reference's chunky dark navy outline and shallow dimensional pixel shadow.
+Spell Division exactly D-i-v-i-s-i-o-n. Clear lowercase dotted i glyphs, regular English spelling and title capitalization. Preserve a clear space between each pair of words. No additional letters or translation.
+
+Typography and composition:
+Both English lines are bold custom 16-bit game title lettering, natural readable letter proportions, consistent pixel stroke weights and clean counters. Align the two lines on the left with compact but visible line separation. Preserve the visual hierarchy of the reference, with Marine Division prominent; do not shrink English into a tiny subtitle. Adapt the title block width for the English text while keeping the complete logo balanced and compact, approximately 2.4–2.7:1 overall. The combined height of both lines should balance the emblem height. Keep a small deliberate gap between emblem and title without collisions or large unused areas. Same visual pixel scale across emblem and lettering. Keep any navy backing close to the actual letters rather than making empty plaques.
+
+The bottom edge ends immediately under the title's letter shadows. NO long wave underline, subtitle ribbon, empty banner or decorative strip below the English title. Waves remain ONLY in the left emblem. No Korean text, filler wording or extra slogans. One complete logo only.
+
+Crisp deliberate pixel clusters, stepped contours, limited colors, clean edges without scattered pixels, stray blobs or gray fringes. No smooth vector curves, blurry gradients, mockup, background scene, extra props or drop shadow outside the logo. Genuine transparent background with modest even transparent margins and no cropped edges.

@@ -1,0 +1,13 @@
+{
+  "scope": "Retry the eight failures preceding the user's second retry request",
+  "items": [
+    "squirtle",
+    "wartortle",
+    "blastoise",
+    "feraligatr",
+    "mudkip",
+    "marshtomp",
+    "piplup",
+    "empoleon"
+  ]
+}

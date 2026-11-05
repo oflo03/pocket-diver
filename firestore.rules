@@ -1,0 +1,15 @@
+rules_version = '2';
+// Cloud saves (src/cloud.js): users/{uid}/saves/{slot} = { data: <save JSON>, savedAt: <ms> }.
+// Each player reads and writes only their own three slots; nothing else in the database is reachable.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid}/saves/{slot} {
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && slot in ['1', '2', '3']
+        && request.resource.data.keys().hasOnly(['data', 'savedAt'])
+        && request.resource.data.data is string && request.resource.data.data.size() < 900000
+        && request.resource.data.savedAt is number;
+    }
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "oshawott",
+    "nameKo": "수댕이",
+    "stage": 1,
+    "details": "White round head, dark blue ears, orange-brown oval nose, teal body with collar bumps, white tapered mitten-like paws, dark blue feet and one broad navy paddle tail. One cream segmented scallop shell attached to belly, central panel and two side lobes. Cheerful attentive standing pose; shells remain attached, no sword.",
+    "kind": "player",
+    "index": 1
+  },
+  {
+    "id": "dewott",
+    "nameKo": "쌍검자비",
+    "stage": 2,
+    "details": "Extract and faithfully preserve Dewott from image 1 as the only isolated subject. Cyan head, uneven two-point crest, sharp white cheek whiskers, pink nose, flat charcoal paws and feet, blue ragged lower coat, exactly two cream segmented shells attached to hips, one broad paddle tail. Same confident presenting pose as the approved sample, no weapons.",
+    "kind": "player",
+    "index": 2
+  },
+  {
+    "id": "samurott",
+    "nameKo": "대검귀",
+    "stage": 3,
+    "details": "Normal Unovan Samurott, NOT Hisuian. Powerful quadruped blue sea lion, cream ridged helmet with long forward horn, large flowing angular white mustache, cream segmented shell armor on forelegs and hindquarters, blue flipper tail. Mouth closed. Stand naturally on four short webbed limbs, head turned toward right; shells stay sheathed, no held weapons, no humanoid arms.",
+    "kind": "player",
+    "index": 3
+  },
+  {
+    "id": "squirtle",
+    "nameKo": "꼬부기",
+    "stage": 1,
+    "details": "Small blue turtle, rounded blue head, big reddish eyes, cream segmented belly shell, brown back shell with pale rim, thick curling blue tail. Two short natural paws and feet, three tiny digits, cheerful upright pose with one relaxed presenting paw.",
+    "kind": "player",
+    "index": 4
+  },
+  {
+    "id": "wartortle",
+    "nameKo": "어니부기",
+    "stage": 2,
+    "details": "Blue turtle, pointed furry light blue ear fins, distinctive fluffy curled pale-blue tail, cream belly shell and brown carapace with pale rim, reddish eyes, small tooth. Confident upright pose, preserve original ears and large cloudlike curled tail.",
+    "kind": "player",
+    "index": 5
+  },
+  {
+    "id": "blastoise",
+    "nameKo": "거북왕",
+    "stage": 3,
+    "details": "Large stocky bipedal blue turtle with cream segmented belly, thick brown shell with pale rim, exactly TWO gray metal water cannons emerging from the shoulders of the shell and angled upward behind head. Short sturdy clawed paws and feet; calm proud stance, no firing.",
+    "kind": "player",
+    "index": 6
+  },
+  {
+    "id": "totodile",
+    "nameKo": "리아코",
+    "stage": 1,
+    "details": "Small blue bipedal crocodile, broad square blue snout, red dorsal spikes from back to tail, pale yellow chest chevron, short clawed arms and feet, long blue tail. Happy open mouth with a few triangular teeth, standing confidently.",
+    "kind": "player",
+    "index": 7
+  },
+  {
+    "id": "croconaw",
+    "nameKo": "엘리게이",
+    "stage": 2,
+    "details": "Chunky blue bipedal crocodile with large square jaw, prominent red jagged crest and back spikes, pale yellow asymmetrical spotted caveman-bib torso marking, short clawed arms, sturdy feet and tail. Broad natural snout, pleased expression.",
+    "kind": "player",
+    "index": 8
+  },
+  {
+    "id": "feraligatr",
+    "nameKo": "장크로다일",
+    "stage": 3,
+    "details": "Strong large blue bipedal crocodile, long square snout, red jagged crests on head/back/tail, pale yellow angular belly armor, muscular short arms with white claws, strong clawed legs and thick tail. Relaxed powerful proud posture, no attack.",
+    "kind": "player",
+    "index": 9
+  },
+  {
+    "id": "mudkip",
+    "nameKo": "물짱이",
+    "stage": 1,
+    "details": "Small blue quadruped mudfish, one tall blue head fin, orange three-pronged gills on both cheeks, pale blue underside and broad pale-blue tail fin. Four tiny feet, alert cheerful squat pose; no invented human hands.",
+    "kind": "player",
+    "index": 10
+  },
+  {
+    "id": "marshtomp",
+    "nameKo": "늪짱이",
+    "stage": 2,
+    "details": "Blue bipedal amphibian, tall dark blue head fin, orange cheek gills, pale blue belly, orange belly and ankle patches, flattened dark tail fin. Broad flat original hands with short digits, sturdy bent legs; relaxed upright pose.",
+    "kind": "player",
+    "index": 11
+  },
+  {
+    "id": "swampert",
+    "nameKo": "대짱이",
+    "stage": 3,
+    "details": "Normal Swampert, NOT Mega. Stocky blue amphibian with TWO tall dark swept-back head fins, orange cheek gills, pale gray-blue belly, dark broad tail fin and orange elbow/knee patches. Long thick forelimbs, large flat original webbed hands and squat rear legs. Low stable proud pose, no human fists.",
+    "kind": "player",
+    "index": 12
+  },
+  {
+    "id": "piplup",
+    "nameKo": "팽도리",
+    "stage": 1,
+    "details": "Small round penguin, light blue body, dark blue head/cape, white face mask, little yellow beak, two white belly spots, short natural flippers and yellow feet. Cheerful upright pose, one flipper lifted slightly.",
+    "kind": "player",
+    "index": 13
+  },
+  {
+    "id": "prinplup",
+    "nameKo": "팽태자",
+    "stage": 2,
+    "details": "Medium blue penguin with dark blue head/cape, large white oval belly bearing four blue spots, yellow twin pointed brow/beak crest, short broad dark flippers and yellow feet. Upright confident formal posture, original flipper anatomy.",
+    "kind": "player",
+    "index": 14
+  },
+  {
+    "id": "empoleon",
+    "nameKo": "엠페르트",
+    "stage": 3,
+    "details": "Tall regal dark navy emperor penguin, distinct golden three-pronged trident beak crest, blue eyes, pale front, white frilled collar, metallic edged wide flippers, yellow three-toed feet. Flippers relaxed at sides, upright proud pose.",
+    "kind": "player",
+    "index": 15
+  },
+  {
+    "id": "froakie",
+    "nameKo": "개구마르",
+    "stage": 1,
+    "details": "Small blue frog with two large raised yellow eyes, pale stripe on face, white fluffy bubble collar around neck and white bubble cushions near back, long thin blue limbs with rounded small white fingers/toes. Compact upright squat, friendly attentive; bubble collar is anatomy, no floating effects.",
+    "kind": "player",
+    "index": 16
+  },
+  {
+    "id": "frogadier",
+    "nameKo": "개굴반장",
+    "stage": 2,
+    "details": "Slim medium blue frog with dark blue upper head mask, narrowed yellow eyes, white bubble scarf around neck, thin limbs ending in original white round-tipped frog digits. Relaxed nimble upright crouch, face readable, no weapons or water effects.",
+    "kind": "player",
+    "index": 17
+  },
+  {
+    "id": "greninja",
+    "nameKo": "개굴닌자",
+    "stage": 3,
+    "details": "Normal blue Greninja, NOT Ash form. Angular dark blue frog ninja, large pointed head fins, pale yellow face areas, red eyes, pink tongue scarf wrapped around neck with end trailing behind, long slim limbs, white round joint pads and natural three-digit webbed hands/feet. Calm low upright stance, not attacking, no shuriken.",
+    "kind": "player",
+    "index": 18
+  },
+  {
+    "id": "popplio",
+    "nameKo": "누리공",
+    "stage": 1,
+    "details": "Small dark blue sea lion with round pink nose, big eyes, pale blue ruffled collar, large front flippers and split tail flippers. Seated upright natural sea-lion pose, cheerful; flippers remain flippers, no hands.",
+    "kind": "player",
+    "index": 19
+  },
+  {
+    "id": "brionne",
+    "nameKo": "키요공",
+    "stage": 2,
+    "details": "Light blue sea lion with darker blue twin ear-like head flaps, pink nose, white ruff at neck, blue scalloped skirt-like body frill, wide short front flippers and fluked tail. Graceful upright seated pose, accurate flipper anatomy.",
+    "kind": "player",
+    "index": 20
+  },
+  {
+    "id": "primarina",
+    "nameKo": "누리레느",
+    "stage": 3,
+    "details": "Elegant white mermaid sea lion with flowing pale cyan hair, pink starfish hair ornament, pink nose, blue fin-shaped ears, long white foreflippers, blue scaled mermaid tail and layered pale fins. Gracefully seated on curled tail, face turned right, both flippers readable. No human legs, no clothing, no water effects.",
+    "kind": "player",
+    "index": 21
+  },
+  {
+    "id": "sobble",
+    "nameKo": "울머기",
+    "stage": 1,
+    "details": "Tiny light blue chameleon-like water lizard, big eyes, yellow upright paddle-shaped crest on head, dark blue cheek marks, pale blue belly, thin arms and legs with two-lobed tiny hands/feet and curled blue tail. Shy pleased upright stance, no tears or effects.",
+    "kind": "player",
+    "index": 22
+  },
+  {
+    "id": "drizzile",
+    "nameKo": "누겔레온",
+    "stage": 2,
+    "details": "Green-blue lizard with drooping purple-blue fringe covering one eye, lime-green mitten-like small hands and feet, dark blue belly and curly tail. Slouched relaxed original posture, visible yellow eye, no human fingers.",
+    "kind": "player",
+    "index": 23
+  },
+  {
+    "id": "inteleon",
+    "nameKo": "인텔리레온",
+    "stage": 3,
+    "details": "Very tall slender blue lizard with pointed yellow head crest, slim dark navy torso and upper limbs, pale blue belly, long thin tail, angular narrow yellow eyes, long delicate blue fingers and three-pronged feet. Relaxed suave upright posture, one natural hand at hip, no finger-gun pose or weapons.",
+    "kind": "player",
+    "index": 24
+  },
+  {
+    "id": "quaxly",
+    "nameKo": "꾸왁스",
+    "stage": 1,
+    "details": "Small white duck with smooth turquoise swept cap-like head plumage and darker wave mark, large blue eyes, yellow beak and bright turquoise webbed feet, white short wings. Neat cheerful standing pose, original wings not human hands.",
+    "kind": "player",
+    "index": 25
+  },
+  {
+    "id": "quaxwell",
+    "nameKo": "아꾸왁",
+    "stage": 2,
+    "details": "Slender white and blue duck with tall smooth swept-back dark blue head plumage, blue face mask around eyes, yellow beak, white neck/chest, blue wing and shorts-like feather areas, long yellow legs and three-toed feet. Graceful poised stance, natural feathered wings.",
+    "kind": "player",
+    "index": 26
+  },
+  {
+    "id": "quaquaval",
+    "nameKo": "웨이니발",
+    "stage": 3,
+    "details": "Tall colorful blue dancing duck with large swept turquoise crest, yellow beak, dark blue face and torso, pale chest, red feet, broad feathered arms, teal feather fan tail with large cyan drop-shaped tips connected as tail feathers. Relaxed proud upright dance-rest pose; preserve complete fan silhouette and red webbed feet, no extra free-floating water effects.",
+    "kind": "player",
+    "index": 27
+  },
+  {
+    "id": "manaphy-phione",
+    "nameKo": "마나피와 피오네 3마리",
+    "kind": "boss",
+    "details": "Exactly ONE Manaphy with two long curved antennae and yellow eye markings, plus exactly THREE smaller Phione each with a single curled head antenna, original white facial patches and blue bodies. Preserve the four-creature group composition of image 1. Four unobscured faces. Include the loosely gathered dark navy capture net under and around their lower bodies, small brass knots, no net over faces. No plinth or furniture."
+  },
+  {
+    "id": "lugia",
+    "nameKo": "루기아",
+    "kind": "boss",
+    "details": "Exactly ONE normal Lugia. White sleek dragon-bird with long curved neck, narrow head, dark blue pointed eye spikes/mask, blue belly plate, two large hand-like white wings with clearly separated broad feather fingers, dark blue rectangular back plates and two tail spikes. Resting on folded legs with wings partly folded inward to a compact width, head raised looking toward right, full long tail curled alongside body. A loose dark navy capture net surrounds lower body and folded wings, small brass knots, with head and face completely visible. Calm captured pose, no injury. Do not turn wings into small human hands; no extra wings. No platform/furniture."
+  },
+  {
+    "id": "kyogre",
+    "nameKo": "가이오가",
+    "kind": "boss",
+    "details": "Exactly ONE normal Kyogre, NOT Primal. Large broad blue orca-like body, white lower jaw and belly, red geometric circuit-like markings along face and BOTH enormous pectoral fins, characteristic white oval fingerlike tips on those fins, yellow eyes, a paired ribbonlike split tail. Full broad body and both fins entirely visible, facing three-quarter right, resting compactly with fins angled slightly back and tail curved behind. A loose dark navy capture net surrounds lower body, fins remain recognizable and face uncovered, small brass knots. Calm captured pose, no injury, no extra fins. No platform/furniture."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "blastoise",
+  "nameKo": "거북왕",
+  "kind": "player",
+  "edit": false,
+  "date": "2026-10-07",
+  "promptFile": "prompts/retry-06/blastoise.txt",
+  "inputs": null,
+  "generationSucceeded": false,
+  "status": "failed",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0543f939-007d-4294-9581-ec7e75c20499.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "requestId": "0543f939-007d-4294-9581-ec7e75c20499"
+}

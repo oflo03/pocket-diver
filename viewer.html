@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>스프라이트 뷰어</title>
+<!-- Dev-only page (npm run dev, then /viewer.html): plays every animation sheet in src/anim. Not part of the build. -->
+<style>
+  body { margin: 0; background: #02101c; color: #e8f6ff; font: 13px/1.4 system-ui, sans-serif; }
+  header { position: sticky; top: 0; z-index: 1; display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 8px 12px; background: #04192a; border-bottom: 1px solid #1d4660; }
+  header div { display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
+  header span { color: #7fa6bf; margin-right: 3px; }
+  button, select { font: inherit; color: inherit; background: #0d2a40; border: 1px solid #1d4660; border-radius: 4px; padding: 3px 8px; cursor: pointer; }
+  button.on { background: #2a6f9a; border-color: #5fb0e0; }
+  main { display: grid; gap: 16px; padding: 14px 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; }
+  .row h3 { width: 100%; margin: 0; font-size: 13px; font-weight: normal; color: #7fa6bf; }
+  figure { margin: 0; display: grid; justify-items: center; gap: 3px; padding: 6px; border-radius: 6px; cursor: pointer; }
+  figcaption { font-size: 12px; }
+  canvas { image-rendering: pixelated; }
+</style>
+</head>
+<body>
+<header>
+  <div id="anims"><span>동작</span></div>
+  <div><span>종</span><select id="species"><option value="">전체 보기</option></select></div>
+  <div id="speeds"><span>속도</span></div>
+  <div id="zooms"><span>배율</span></div>
+  <div id="bgs"><span>배경</span></div>
+  <div><button id="pause">일시정지</button><button id="back">◀</button><button id="next">▶</button></div>
+</header>
+<main id="grid"></main>
+<script type="module">
+import { LINES } from '/src/rules.js';
+import data from '/src/data.json';
+
+const sheets = Object.fromEntries(Object.entries(import.meta.glob('/src/anim/*.json', { eager: true, import: 'default' }))
+  .map(([path, s]) => [path.match(/(\w+)\.json$/)[1], s]));
+const NAMES = { idle: '대기', walk: '걷기', float: '물속 대기', swim_slow: '헤엄 1', swim: '헤엄 2', swim_mid: '헤엄 3', swim_fast: '헤엄 4',
+  dash: '돌진', shoot: '발사', tail: '꼬리', pump: '뿜기', recharge: '반동', hurt: '피격' };
+const BGS = { 물: '#0b3550', 어둡게: '#151515', 밝게: '#d8dde0' };
+// button values are strings (data-v), so speed and zoom are kept as strings and coerced where used
+const st = { anim: 'idle', sp: '', speed: '1', zoom: '3', bg: '#0b3550', paused: false, t: 0 };
+const $ = id => document.getElementById(id);
+
+const images = {};
+function image(s, page) {
+  const src = '/' + [].concat(s.image)[page];
+  if (!images[src]) images[src] = Object.assign(new Image(), { src });
+  return images[src].complete && images[src].naturalWidth ? images[src] : null;
+}
+
+// one-shot animations replay after a short hold on their last frame
+function frameAt(a, t) {
+  const n = a.frames.length, tt = t % (n / a.fps + (a.loop ? 0 : 0.6));
+  return Math.min(n - 1, Math.floor(tt * a.fps));
+}
+
+let cells = [];
+function cell(row, sp, name, label, onclick) {
+  const s = sheets[sp], a = s.anims[name] ?? s.anims.idle, [fw, fh] = s.frame;
+  const fig = document.createElement('figure'), cv = document.createElement('canvas'), cap = document.createElement('figcaption');
+  Object.assign(cv, { width: fw, height: fh });
+  cv.style.width = fw * st.zoom + 'px';
+  fig.style.background = st.bg;
+  fig.onclick = onclick;
+  fig.append(cv, cap);
+  row.append(fig);
+  cells.push({ ctx: cv.getContext('2d'), s, a, cap, label });
+}
+
+function build() {
+  const grid = $('grid');
+  grid.innerHTML = ''; cells = [];
+  for (const b of document.querySelectorAll('header button[data-k]')) b.classList.toggle('on', st[b.dataset.k] === b.dataset.v && !(st.sp && b.dataset.k === 'anim'));
+  $('species').value = st.sp;
+  if (st.sp) {
+    const row = Object.assign(document.createElement('div'), { className: 'row' });
+    grid.append(row);
+    for (const name of Object.keys(sheets[st.sp].anims))
+      cell(row, st.sp, name, NAMES[name] ?? name, () => set({ sp: '', anim: name }));
+    return;
+  }
+  for (const line of Object.values(LINES)) {
+    const row = Object.assign(document.createElement('div'), { className: 'row' });
+    row.append(Object.assign(document.createElement('h3'), { textContent: `${line.name} 계열 · ${line.concept}` }));
+    grid.append(row);
+    for (const sp of line.species.filter(sp => sheets[sp])) cell(row, sp, st.anim, data.species[sp]?.name ?? sp, () => set({ sp }));
+  }
+}
+
+function draw() {
+  for (const { ctx, s, a, cap, label } of cells) {
+    const i = frameAt(a, st.t), k = a.frames[i], per = s.perPage ?? Infinity, f = k % per, img = image(s, Math.floor(k / per));
+    const [fw, fh] = s.frame;
+    ctx.clearRect(0, 0, fw, fh);
+    ctx.fillStyle = 'rgba(255,255,255,0.15)';
+    ctx.fillRect(0, s.anchor[1], fw, 1); // feet line
+    if (img) ctx.drawImage(img, (f % s.cols) * fw, Math.floor(f / s.cols) * fh, fw, fh, 0, 0, fw, fh);
+    cap.textContent = st.paused ? `${label} ${i + 1}/${a.frames.length}` : label;
+  }
+}
+
+let last = performance.now();
+requestAnimationFrame(function tick(now) {
+  if (!st.paused) st.t += (now - last) / 1000 * st.speed;
+  last = now;
+  draw();
+  requestAnimationFrame(tick);
+});
+
+function set(change) { Object.assign(st, change); build(); }
+function buttons(box, k, entries) {
+  for (const [label, v] of entries) {
+    const b = Object.assign(document.createElement('button'), { textContent: label, onclick: () => set({ [k]: v, ...(k === 'anim' && { sp: '' }) }) });
+    b.dataset.k = k; b.dataset.v = v;
+    $(box).append(b);
+  }
+}
+buttons('anims', 'anim', Object.entries(NAMES).map(([k, v]) => [v, k]));
+buttons('speeds', 'speed', [['1×', '1'], ['½×', '0.5'], ['¼×', '0.25']]);
+buttons('zooms', 'zoom', [['1', '1'], ['2', '2'], ['3', '3'], ['4', '4']]);
+buttons('bgs', 'bg', Object.entries(BGS));
+
+for (const line of Object.values(LINES)) {
+  const group = Object.assign(document.createElement('optgroup'), { label: line.name });
+  for (const sp of line.species.filter(sp => sheets[sp])) group.append(new Option(data.species[sp]?.name ?? sp, sp));
+  $('species').append(group);
+}
+$('species').onchange = e => set({ sp: e.target.value });
+
+const step = d => { st.paused = true; $('pause').textContent = '재생'; st.t = Math.max(0, st.t + d / 12); };
+$('pause').onclick = () => { st.paused = !st.paused; $('pause').textContent = st.paused ? '재생' : '일시정지'; };
+$('back').onclick = () => step(-1);
+$('next').onclick = () => step(1);
+addEventListener('keydown', e => {
+  if (e.target.tagName === 'SELECT') return;
+  if (e.key === ' ') { e.preventDefault(); $('pause').click(); }
+  if (e.key === 'ArrowLeft') step(-1);
+  if (e.key === 'ArrowRight') step(1);
+});
+build();
+</script>
+</body>
+</html>

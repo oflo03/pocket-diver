@@ -1,0 +1,9 @@
+{
+  "id": "lugia",
+  "date": "2026-10-07",
+  "promptFile": "prompts/lugia-tired-v2.txt",
+  "generationSucceeded": false,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 9457dd78-06bd-4dec-8b7d-6b67cf9ca482.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "status": "failed",
+  "requestId": "9457dd78-06bd-4dec-8b7d-6b67cf9ca482"
+}

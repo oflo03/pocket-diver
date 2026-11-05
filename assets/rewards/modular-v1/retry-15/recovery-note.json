@@ -1,0 +1,13 @@
+{
+  "round": "retry-15",
+  "requestedDate": "2026-10-08",
+  "checkedDate": "2026-10-12",
+  "attempted": 3,
+  "unknown": [
+    "blastoise",
+    "piplup",
+    "popplio"
+  ],
+  "status": "result_unavailable",
+  "note": "The previous exec cell no longer exists; no per-character result logs or new output PNGs were found. These dispatched calls must not be counted as confirmed failures."
+}

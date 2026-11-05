@@ -1,0 +1,12 @@
+{
+  "id": "totodile",
+  "nameKo": "리아코",
+  "kind": "player",
+  "promptFile": "prompts/retry-01/totodile.txt",
+  "inputs": [
+    "C:/Users/oFlo/Documents/WebProject/pocket-diver/public/sprites/totodile.png"
+  ],
+  "status": "generated",
+  "source": "C:/Users/oFlo/.codex/generated_images/01a0f684-bcab-7fd2-9071-81f8952427c6/exec-c7bd7db8-11d5-4e6c-b9cc-c37240115595.png",
+  "file": "players/totodile.png"
+}
